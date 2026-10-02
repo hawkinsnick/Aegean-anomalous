@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "classes": [
+    {
+      "class": "PRIMARY_CATALOGUE_OR_EXCAVATION",
+      "weight": "highest for object/sign facts"
+    },
+    {
+      "class": "OFFICIAL_MUSEUM",
+      "weight": "high for object/context metadata"
+    },
+    {
+      "class": "PEER_REVIEWED_SCHOLARSHIP",
+      "weight": "high, claim-specific"
+    },
+    {
+      "class": "INSTITUTIONAL_ACADEMIC_WEB_RESOURCE",
+      "weight": "useful secondary/institutional evidence"
+    },
+    {
+      "class": "DECIPHERMENT_PROPOSAL",
+      "weight": "evidence only that proposal exists; never authority for accepted reading"
+    },
+    {
+      "class": "GENERAL_WEB",
+      "weight": "discovery only"
+    }
+  ],
+  "prohibited_promotions": [
+    "A proposed translation cannot establish phonetic values.",
+    "A visual resemblance cannot establish sign identity.",
+    "A secondary count conflict cannot be silently resolved."
+  ]
+}
