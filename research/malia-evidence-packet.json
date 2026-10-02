@@ -33,7 +33,7 @@
       "status": "PRIMARY_CATALOGUE_VERIFICATION_REQUIRED"
     }
   ],
-  "critical_discrepancy": "Accessible sources disagree between 15 signs and 16 symbols. Preserve both counts until counting convention and primary drawing are reconciled.",
+  "critical_discrepancy": "Primary and later sources report 14, 15, and 16. Treat this as a segmentation/counting-history problem; do not normalize until primary drawing + CHIC convention are reconciled.",
   "discovery_lineage": [
     {
       "year": 1937,
@@ -90,5 +90,62 @@
     "find_account": "Spring 1937; farmer at Malia encountered the block while cultivating a garden beside the old Turkish road toward Neapolis.",
     "project_effect": "Primary find/publication lineage established; later chronological or linguistic interpretations remain separate assertions."
   },
-  "primary_source_status": "ACQUIRED_AT_METADATA_AND_FIND_ACCOUNT_LEVEL"
+  "primary_source_status": "ACQUIRED_AT_METADATA_AND_FIND_ACCOUNT_LEVEL",
+  "primary_sources": [
+    {
+      "id": "CHAPOUTHIER-1937",
+      "title": "Une inscription hiéroglyphique sur pierre (Mallia, époque minoenne)",
+      "journal": "CRAI",
+      "volume": "81-3",
+      "pages": "277-278",
+      "doi": "10.3406/crai.1937.76905",
+      "claims": {
+        "find": "March 1937; fortuitous discovery by a Malia farmer",
+        "object": "large limestone block (sidéropétra) with artificial cavity suggesting offering-table fragment",
+        "layout": "single line",
+        "count": "14 characters, preceded and followed by a bar"
+      },
+      "status": "PRIMARY_PRELIMINARY_REPORT"
+    },
+    {
+      "id": "CHAPOUTHIER-1938",
+      "title": "Inscription hiéroglyphique minoenne gravée sur un bloc de calcaire",
+      "journal": "BCH",
+      "volume": 62,
+      "pages": "104-109",
+      "doi": "10.3406/bch.1938.2697",
+      "status": "PRIMARY_FULL_PUBLICATION"
+    },
+    {
+      "id": "MALIA-PROSPECTION",
+      "title": "Prospection à Malia : deux documents hiéroglyphiques",
+      "claims": {
+        "catalogue_id": "MA/V Ya 01",
+        "classification": "bloc de calcaire",
+        "lineage": "explicitly cites Chapouthier 1938 pp.104-109 pl.XIX"
+      },
+      "status": "LATER_EXCAVATION_CORPUS_LINEAGE"
+    }
+  ],
+  "sign_count_history": [
+    {
+      "count": 14,
+      "source": "Chapouthier 1937 preliminary report",
+      "counting": "characters between boundary bars"
+    },
+    {
+      "count": 15,
+      "source": "institutional academic treatment",
+      "counting": "reported Cretan Hieroglyphic signs"
+    },
+    {
+      "count": 16,
+      "source": "later scholarly/computational treatment",
+      "counting": "reported symbols"
+    }
+  ],
+  "identifiers": {
+    "excavation_system": "MA/V Ya 01",
+    "chic": "CHIC #328 (secondary/later concordance; direct CHIC verification still required)"
+  }
 }
