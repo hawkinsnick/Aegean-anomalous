@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Prevent decipherment proposals and broad script-family claims from entering canonical evidence.",
+  "records": [
+    {
+      "id": "REVESZ-MALIA",
+      "artifact": "MALIA-ALTAR-STONE",
+      "claim_type": "proposed translation/phonetic projection",
+      "status": "QUARANTINED_HYPOTHESIS",
+      "canonical_effect": "NONE"
+    },
+    {
+      "id": "WOUDHUIZEN-MALIA",
+      "artifact": "MALIA-ALTAR-STONE",
+      "claim_type": "proposed Luwian reading/dating argument",
+      "status": "QUARANTINED_HYPOTHESIS",
+      "canonical_effect": "NONE"
+    },
+    {
+      "id": "GENERAL-PHAISTOS-ARKALOCHORI-SAME-SCRIPT",
+      "artifact": "ARKALOCHORI-AXE",
+      "claim_type": "same-writing-system assertion",
+      "status": "DISPUTED_CLASSIFICATION",
+      "canonical_effect": "NONE"
+    }
+  ],
+  "promotion_rule": "A hypothesis may become an attributed scholarly claim with a locator, but never an accepted reading/sign value/script identity without independent specialist consensus evidence."
+}
