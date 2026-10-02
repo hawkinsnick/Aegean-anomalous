@@ -11,14 +11,32 @@
         "findspot": "Arkalochori cave, central Crete",
         "associated_material": "weapons, double axes, MM III/LM IA pottery; two miniature Linear A-inscribed axes reported in same cave assemblage"
       },
-      "evidence_note": "Ferrara/Montecchi/Streccioni 2024 explicitly treats whether Arkalochori and Phaistos are writing/same system as disputed."
+      "evidence_note": "Ferrara/Montecchi/Streccioni 2024 explicitly treats whether Arkalochori and Phaistos are writing/same system as disputed.",
+      "official_museum_evidence": {
+        "source": "Heraklion Archaeological Museum",
+        "context_date": "1700-1450 BC",
+        "assemblage": "large group of metal objects from Arkalochori Cave",
+        "object_description": "inscribed double axe with incised signs described by museum as Hieroglyphic script",
+        "interpretive_context": "museum discusses votive/cult deposition and alternative concealment/workshop interpretations",
+        "evidence_class": "OFFICIAL_MUSEUM_METADATA",
+        "verified_on": "2026-10-02"
+      }
     },
     {
       "id": "MALIA-ALTAR-STONE",
       "status": "ADMITTED_TO_QUARANTINE",
       "writing_status": "SCHOLARLY_COMPARISON_REQUIRED",
       "script_membership": "DISPUTED",
-      "evidence_note": "Computational/Aegean-script literature treats Malia as a special Cretan Hieroglyphic problem requiring controlled comparison."
+      "evidence_note": "Computational/Aegean-script literature treats Malia as a special Cretan Hieroglyphic problem requiring controlled comparison.",
+      "literature_evidence": {
+        "source": "Braović et al. 2024",
+        "classification_for_study": "Cretan Hieroglyphic",
+        "reported_symbol_count": 16,
+        "reported_find": "excavated 1937 at Malia, Crete",
+        "reported_distinction": "described as only known Cretan-hieroglyphic inscription engraved in stone",
+        "caveat": "classification is the paper's analytical treatment, not project adjudication",
+        "evidence_class": "OPEN_SCHOLARLY_SECONDARY"
+      }
     }
   ],
   "not_duplicated": [
