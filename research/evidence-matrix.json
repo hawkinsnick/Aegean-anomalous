@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "dimensions": [
+    "physical_object_identity",
+    "archaeological_context",
+    "chronology",
+    "material",
+    "inscription_geometry",
+    "sign_inventory_by_authority",
+    "writing_status_claim",
+    "script_membership_claim",
+    "authenticity_claim",
+    "source_lineage",
+    "rights"
+  ],
+  "records": [
+    {
+      "candidate_id": "ARKALOCHORI-AXE",
+      "known": [
+        "archaeological_context",
+        "comparative_claims"
+      ],
+      "open": [
+        "museum_inventory",
+        "dimensions",
+        "material_authority",
+        "exact_sign_geometry",
+        "authority_sign_inventories",
+        "restoration_history",
+        "rights"
+      ]
+    },
+    {
+      "candidate_id": "MALIA-ALTAR-STONE",
+      "known": [
+        "comparative_relevance"
+      ],
+      "open": [
+        "museum_inventory",
+        "find_context",
+        "chronology",
+        "dimensions",
+        "material",
+        "exact_sign_geometry",
+        "authority_sign_inventories",
+        "rights"
+      ]
+    }
+  ]
+}
