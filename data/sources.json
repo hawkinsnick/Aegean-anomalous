@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "flouda-2015",
+      "role": "arkalochori_materiality_and_script",
+      "status": "PUBLIC_BIBLIOGRAPHIC_ROUTE_CONFIRMED"
+    },
+    {
+      "id": "braovic-et-al-2024",
+      "role": "computational_review",
+      "status": "OPEN_ACCESS",
+      "notes": "Reviews Arkalochori and Malia within the Cretan Hieroglyphic/Aegean computational literature."
+    },
+    {
+      "id": "ferrara-montecchi-2024",
+      "role": "script_origin_comparison",
+      "status": "PUBLIC_REPOSITORY_ROUTE_CONFIRMED",
+      "notes": "Treats Phaistos/Arkalochori relationship and writing-system status as questions requiring reassessment."
+    }
+  ]
+}
