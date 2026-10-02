@@ -1,0 +1,12 @@
+{
+  "name": "Aegean Anomalous Inscriptions",
+  "version": "0.1.0",
+  "status": "QUARANTINE_CORPUS_INITIALIZATION",
+  "canonical_script_claims": 0,
+  "principles": [
+    "object-first",
+    "classification-neutral",
+    "competing-claims-preserved",
+    "no-invented-anomalous-language-or-script"
+  ]
+}
