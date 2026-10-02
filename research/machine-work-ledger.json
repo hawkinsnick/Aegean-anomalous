@@ -17,18 +17,23 @@
     },
     {
       "id": "ANO-PRE-002",
-      "status": "PARTIAL",
+      "status": "OBJECT_PACKET_NEAR_COMPLETE",
       "completed": [
-        "official museum context",
-        "comparative classification evidence"
+        "official museum inventory Χ2416",
+        "bronze material",
+        "intact/conserved condition",
+        "24 cm maximum length",
+        "Arkalochori Cave context",
+        "MM III–LM IA / 1700–1500 BC",
+        "three-column layout",
+        "15-sign count",
+        "Flouda restoration/materiality study registered"
       ],
       "remaining": [
-        "inventory number",
-        "dimensions/material authority",
-        "15-sign geometry source",
-        "restoration history"
+        "sign-by-sign geometry encoded from an authoritative drawing",
+        "restoration interventions at feature level"
       ],
-      "blocker": "museum/primary publication metadata acquisition"
+      "blocker": "Requires reusable/inspectable authoritative drawing or publication figure for sign geometry."
     },
     {
       "id": "ANO-PRE-003",
