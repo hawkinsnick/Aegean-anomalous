@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "records": [
+    {
+      "artifact": "ARKALOCHORI-AXE",
+      "states": [
+        {
+          "authority": "Heraklion Archaeological Museum",
+          "classification": "museum describes inscription in relation to Linear A and Phaistos; content unknown",
+          "weight": "OFFICIAL_METADATA"
+        },
+        {
+          "authority": "Flouda 2015",
+          "classification": "probably glottographic but cannot be indisputably assigned to Cretan Hieroglyphic or Linear A",
+          "weight": "PEER_REVIEWED"
+        },
+        {
+          "authority": "Braović et al. 2024",
+          "classification": "treated as Cretan Hieroglyphic for review scope while acknowledging literature may list it separately",
+          "weight": "PEER_REVIEWED_REVIEW"
+        }
+      ],
+      "project_state": "DISPUTED_CLASSIFICATION"
+    },
+    {
+      "artifact": "MALIA-ALTAR-STONE",
+      "states": [
+        {
+          "authority": "CHIC lineage",
+          "classification": "CHIC #328 / Cretan Hieroglyphic corpus",
+          "weight": "CATALOGUE_LINEAGE"
+        },
+        {
+          "authority": "Braović et al. 2024",
+          "classification": "Cretan Hieroglyphic",
+          "weight": "PEER_REVIEWED_REVIEW"
+        },
+        {
+          "authority": "decipherment proposals",
+          "classification": "various stronger same-script/language claims",
+          "weight": "HYPOTHESIS_ONLY"
+        }
+      ],
+      "project_state": "CHIC_MEMBERSHIP_STRONG; SIGN_SEGMENTATION_HISTORY_UNRESOLVED"
+    },
+    {
+      "artifact": "PHAISTOS-DISC",
+      "states": [
+        {
+          "authority": "Braović et al. 2024",
+          "classification": "separate script for review, described as current-consensus choice",
+          "weight": "PEER_REVIEWED_REVIEW"
+        }
+      ],
+      "project_state": "CROSS_REFERENCE_ONLY_DEDICATED_CORPUS"
+    }
+  ],
+  "rule": "Project state summarizes evidence architecture, not a new palaeographic judgment."
+}
