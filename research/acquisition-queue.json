@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "priority": [
+    {
+      "id": "ANO-ACQ-001",
+      "target": "Ferrara/Montecchi/Streccioni 2024 open article",
+      "purpose": "Arkalochori object/context/sign-comparison evidence with exact locators"
+    },
+    {
+      "id": "ANO-ACQ-002",
+      "target": "Arkalochori excavation/museum records",
+      "purpose": "physical object identity, inventory, dimensions, material, restoration history"
+    },
+    {
+      "id": "ANO-ACQ-003",
+      "target": "Malia Altar Stone primary/CHIC records",
+      "purpose": "physical object and sign geometry evidence"
+    },
+    {
+      "id": "ANO-ACQ-004",
+      "target": "existing Linear A/Cretan Hieroglyphic/Phaistos repositories",
+      "purpose": "cross-project assertions with dependence labels, never copied as independent witnesses"
+    },
+    {
+      "id": "ANO-ACQ-005",
+      "target": "Aegean scholarship",
+      "purpose": "systematic discovery of additional cases meeting admission policy"
+    }
+  ]
+}
