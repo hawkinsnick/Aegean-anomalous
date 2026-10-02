@@ -1,7 +1,7 @@
 {
   "name": "Aegean Anomalous Inscriptions",
-  "version": "0.2.0",
-  "status": "QUARANTINE_CORPUS_INITIALIZATION_EVIDENCE_LAYER",
+  "version": "1.0.0",
+  "status": "PRE_EXPERT_RESEARCH_BASELINE_1_0",
   "canonical_script_claims": 0,
   "principles": [
     "object-first",
