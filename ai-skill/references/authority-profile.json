@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "required_authorities": [
+    {
+      "role": "project",
+      "path": "project.json",
+      "required": true
+    },
+    {
+      "role": "admission_policy",
+      "path": "research/admission-policy.json",
+      "required": true
+    },
+    {
+      "role": "sources",
+      "path": "data/sources.json",
+      "required": true
+    },
+    {
+      "role": "pre_expert_maximum",
+      "path": "research/pre-expert-maximum.json",
+      "required": true
+    }
+  ],
+  "behavioral_gates": [
+    "Quarantine inclusion is not classification.",
+    "No synthetic anomalous language or script.",
+    "No decipherment from visual resemblance.",
+    "Cross-project links preserve source-specific uncertainty."
+  ]
+}
