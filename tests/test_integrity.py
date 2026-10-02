@@ -6,6 +6,7 @@ def test_neutrality():
  assert p['canonical_script_claims']==0 and len(a['initial_candidates'])>=2 and x['target']=='PRE_EXPERT_MAXIMUM'
  assert any('single script' in s for s in a['admission_does_not_mean'])
 def test_release_assurance():
- for p in ['research/evidence-matrix.json','research/rights-register.json','research/source-dependence.json','research/expert-review-packet.json','research/candidate-register.json']: L(p)
+ for p in ['research/evidence-matrix.json','research/rights-register.json','research/source-dependence.json','research/expert-review-packet.json','research/candidate-register.json','research/candidate-disposition-register.json','research/machine-work-ledger.json']: L(p)
  c=L('research/candidate-register.json')['candidates']; assert {x['id'] for x in c}>={'ARKALOCHORI-AXE','MALIA-ALTAR-STONE'}
  assert next(x for x in c if x['id']=='ARKALOCHORI-AXE')['official_museum_evidence']['evidence_class']=='OFFICIAL_MUSEUM_METADATA'
+ d={x['id']:x['disposition'] for x in L('research/candidate-disposition-register.json')['records']}; assert d['PHAISTOS-DISC']=='CROSS_REFERENCE_ONLY'
