@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "policy": "This project is primarily an evidence quarantine and therefore stores project-authored metadata, locators and attributed claims; third-party images/transcriptions are not redistributed without compatible rights.",
+  "resources": [
+    {
+      "resource": "Heraklion Archaeological Museum Arkalochori exhibit",
+      "status": "OFFICIAL_PUBLIC_METADATA_ROUTE",
+      "use": "citation and factual reconciliation; image reuse separately governed"
+    },
+    {
+      "resource": "Braović et al. 2024",
+      "status": "OPEN_RESEARCH_ARTICLE_ROUTE",
+      "use": "classification/computational-literature evidence with attribution"
+    },
+    {
+      "resource": "primary Malia/CHIC publications",
+      "status": "SOURCE_REVIEW_REQUIRED",
+      "use": "locators and factual reconciliation pending acquisition"
+    }
+  ]
+}
