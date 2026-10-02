@@ -33,5 +33,48 @@
       "status": "PRIMARY_CATALOGUE_VERIFICATION_REQUIRED"
     }
   ],
-  "critical_discrepancy": "Accessible sources disagree between 15 signs and 16 symbols. Preserve both counts until counting convention and primary drawing are reconciled."
+  "critical_discrepancy": "Accessible sources disagree between 15 signs and 16 symbols. Preserve both counts until counting convention and primary drawing are reconciled.",
+  "discovery_lineage": [
+    {
+      "year": 1937,
+      "event": "found by a farmer/local near Malia; stray find",
+      "status": "MULTIPLE_SECONDARY_SOURCES_AGREE"
+    },
+    {
+      "year": 1938,
+      "event": "published by Fernand Chapouthier",
+      "status": "BIBLIOGRAPHICALLY_ATTESTED"
+    },
+    {
+      "event": "catalogued as CHIC #328",
+      "status": "SECONDARY_SOURCES_AGREE_PRIMARY_CHIC_CHECK_PENDING"
+    }
+  ],
+  "object_description_conflict": {
+    "material": [
+      "institutional source treatment to be retained",
+      "secondary descriptions include blue/hard limestone"
+    ],
+    "sign_count": [
+      15,
+      16
+    ],
+    "dating": [
+      "institutional resource proposes ca. 1625 BC / First Palace treatment",
+      "other scholarship emphasizes stray-find archaeological date is unknown"
+    ],
+    "rule": "Do not collapse material/count/date disagreements until primary publication/CHIC/object record is inspected."
+  },
+  "decipherment_quarantine": [
+    {
+      "source": "Woudhuizen and related decipherment literature",
+      "role": "HYPOTHESIS_ONLY",
+      "rule": "May document proposed readings as reception history; may not supply accepted phonetic values, language identification, or dating."
+    },
+    {
+      "source": "Revesz translation proposal",
+      "role": "HYPOTHESIS_ONLY",
+      "rule": "Synoptic/cognate-symbol method is not evidence of accepted decipherment; quarantine from canonical sign values."
+    }
+  ]
 }
