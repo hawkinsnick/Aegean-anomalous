@@ -147,5 +147,21 @@
   "identifiers": {
     "excavation_system": "MA/V Ya 01",
     "chic": "CHIC #328 (secondary/later concordance; direct CHIC verification still required)"
+  },
+  "chic_locator": {
+    "id": "CHIC #328",
+    "pages": "314–315",
+    "source": "Olivier & Godart 1996",
+    "status": "LOCATOR_CORROBORATED_BY_INSTITUTIONAL_BIBLIOGRAPHY; DIRECT_PAGE_CONTENT_NOT_YET_ACQUIRED"
+  },
+  "primary_count_definition": {
+    "source": "Chapouthier 1937",
+    "textual_fact": "14 characters preceded and followed by a bar",
+    "implication": "Boundary bars are not counted among Chapouthier's 14 characters; later 15/16 counts therefore require segmentation/re-identification history, not simple inclusion of both boundary bars."
+  },
+  "find_context_precision": {
+    "source": "Chapouthier 1938",
+    "details": "spring 1937; farmer cultivating garden beside old Turkish road from Malia toward Neapolis, in a depression at locality rendered Stenakas/Kalamatis; block initially moved to edge of field; sunlight revealed characters; Henri van Effenterre made initial copy/photo; Marinatos arranged transfer to Candia and improved documentation; Chapouthier later studied original and commissioned cast/photo.",
+    "status": "PRIMARY_SOURCE"
   }
 }
