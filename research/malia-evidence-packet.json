@@ -76,5 +76,19 @@
       "role": "HYPOTHESIS_ONLY",
       "rule": "Synoptic/cognate-symbol method is not evidence of accepted decipherment; quarantine from canonical sign values."
     }
-  ]
+  ],
+  "primary_source": {
+    "id": "CHAPOUTHIER-1938",
+    "author": "Fernand Chapouthier",
+    "title": "Inscription hiéroglyphique minoenne gravée sur un bloc de calcaire",
+    "journal": "Bulletin de Correspondance Hellénique",
+    "volume": 62,
+    "pages": "104-109",
+    "doi": "10.3406/bch.1938.2697",
+    "access": "PUBLIC_PERSEE",
+    "source_class": "PRIMARY_PUBLICATION",
+    "find_account": "Spring 1937; farmer at Malia encountered the block while cultivating a garden beside the old Turkish road toward Neapolis.",
+    "project_effect": "Primary find/publication lineage established; later chronological or linguistic interpretations remain separate assertions."
+  },
+  "primary_source_status": "ACQUIRED_AT_METADATA_AND_FIND_ACCOUNT_LEVEL"
 }
