@@ -37,19 +37,20 @@
     },
     {
       "id": "ANO-PRE-003",
-      "status": "PRIMARY_SOURCE_ROUTE_ACQUIRED",
+      "status": "PRIMARY_LINEAGE_STRONG",
       "completed": [
-        "Chapouthier 1938 primary publication identity and pp. 104-109",
-        "primary find account",
-        "CHIC 328 secondary concordance",
-        "15/16 count conflict preserved"
+        "Chapouthier 1937 preliminary primary report",
+        "Chapouthier 1938 full primary publication route",
+        "MA/V Ya 01 later excavation identifier",
+        "CHIC #328 concordance route",
+        "14/15/16 count history preserved"
       ],
       "remaining": [
-        "extract primary object dimensions/material/sign count/drawing details",
-        "verify CHIC 328 directly",
-        "encode exact inscription geometry"
+        "direct CHIC #328 inspection",
+        "primary drawing geometry encoding",
+        "resolve counting convention without suppressing historical counts"
       ],
-      "blocker": "Primary article is identified and public; figure/text extraction still required for full object/sign packet."
+      "blocker": "Direct CHIC record/drawing access remains required for final sign segmentation."
     },
     {
       "id": "ANO-PRE-004",
