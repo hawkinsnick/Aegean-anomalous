@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "artifact": "MALIA-ALTAR-STONE",
+  "observations": [
+    {
+      "source": "Chapouthier 1937",
+      "count": 14,
+      "unit": "characters",
+      "boundary_marks": "preceded and followed by a bar; bars explicitly outside character count",
+      "authority_class": "PRIMARY"
+    },
+    {
+      "source": "Daidalika / institutional academic resource",
+      "count": 15,
+      "unit": "Cretan Hieroglyphic signs",
+      "authority_class": "INSTITUTIONAL_SECONDARY"
+    },
+    {
+      "source": "Woudhuizen 2016",
+      "count": 15,
+      "unit": "signs total; 3 repeated / 12 individual",
+      "authority_class": "SCHOLARLY_INTERPRETIVE"
+    },
+    {
+      "source": "Kenanidis & Papakitsos 2017",
+      "count": 16,
+      "unit": "signs total; 13 different, 3 repeated",
+      "authority_class": "SCHOLARLY_INTERPRETIVE"
+    },
+    {
+      "source": "Braović et al. 2024",
+      "count": 16,
+      "unit": "symbols",
+      "authority_class": "PEER_REVIEWED_REVIEW"
+    }
+  ],
+  "inference_status": "UNRESOLVED_SEGMENTATION_HISTORY",
+  "machine_conclusion": "The 14/15/16 divergence cannot be reduced to counting both boundary bars, because Chapouthier explicitly excludes both bars from 14; direct comparison of drawings/sign segmentation is required.",
+  "guardrail": "Do not select a canonical count until CHIC #328 and primary drawing are directly reconciled."
+}
