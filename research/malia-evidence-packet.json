@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "object_id": "MALIA-ALTAR-STONE",
+  "claims": [
+    {
+      "claim": "discovered at Malia in 1937 by Fernand Chapouthier",
+      "source_class": "INSTITUTIONAL_ACADEMIC_WEB_RESOURCE",
+      "status": "SUPPORTED"
+    },
+    {
+      "claim": "stone libation/offering table with a cavity on top",
+      "source_class": "INSTITUTIONAL_ACADEMIC_WEB_RESOURCE",
+      "status": "SUPPORTED"
+    },
+    {
+      "claim": "approximately 1625 BC / First Palace Period treatment",
+      "source_class": "INSTITUTIONAL_ACADEMIC_WEB_RESOURCE",
+      "status": "SOURCE_ATTRIBUTED_NOT_PROJECT_ADJUDICATED"
+    },
+    {
+      "claim": "15 Cretan Hieroglyphic signs",
+      "source_class": "INSTITUTIONAL_ACADEMIC_WEB_RESOURCE",
+      "status": "SUPPORTED_BY_THIS_SOURCE"
+    },
+    {
+      "claim": "16 symbols",
+      "source_class": "SCHOLARLY_SECONDARY",
+      "status": "CONFLICTING_COUNT_REQUIRES_RECONCILIATION"
+    },
+    {
+      "claim": "CHIC 328",
+      "source_class": "SCHOLARLY_SECONDARY_CITING_CHIC",
+      "status": "PRIMARY_CATALOGUE_VERIFICATION_REQUIRED"
+    }
+  ],
+  "critical_discrepancy": "Accessible sources disagree between 15 signs and 16 symbols. Preserve both counts until counting convention and primary drawing are reconciled."
+}
