@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "candidates": [
+    {
+      "id": "ARKALOCHORI-AXE",
+      "status": "ADMITTED_TO_QUARANTINE",
+      "writing_status": "DISPUTED",
+      "script_membership": "DISPUTED",
+      "context": {
+        "find_year": 1935,
+        "findspot": "Arkalochori cave, central Crete",
+        "associated_material": "weapons, double axes, MM III/LM IA pottery; two miniature Linear A-inscribed axes reported in same cave assemblage"
+      },
+      "evidence_note": "Ferrara/Montecchi/Streccioni 2024 explicitly treats whether Arkalochori and Phaistos are writing/same system as disputed."
+    },
+    {
+      "id": "MALIA-ALTAR-STONE",
+      "status": "ADMITTED_TO_QUARANTINE",
+      "writing_status": "SCHOLARLY_COMPARISON_REQUIRED",
+      "script_membership": "DISPUTED",
+      "evidence_note": "Computational/Aegean-script literature treats Malia as a special Cretan Hieroglyphic problem requiring controlled comparison."
+    }
+  ],
+  "not_duplicated": [
+    {
+      "id": "PHAISTOS-DISC",
+      "reason": "dedicated hawkinsnick/Phaistos-Disc project; anomalous corpus stores cross-reference assertions only"
+    }
+  ]
+}
