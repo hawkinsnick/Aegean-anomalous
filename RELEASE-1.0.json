@@ -1,0 +1,21 @@
+{
+  "release": "1.0.0",
+  "scope": "classification-neutral quarantine research release",
+  "achieved": [
+    "formal admission policy",
+    "Arkalochori/Malia candidate register",
+    "official Arkalochori museum evidence",
+    "Malia scholarly evidence",
+    "rights and source-dependence registers",
+    "expert-review packet",
+    "AI guardrails",
+    "hard CI"
+  ],
+  "open": [
+    "Malia primary-source packet",
+    "systematic candidate inclusion/exclusion sweep",
+    "museum inventory reconciliation",
+    "cross-project evidence links"
+  ],
+  "claim": "1.0 does not posit an anomalous language or single script; admission is an evidence-management decision only."
+}
