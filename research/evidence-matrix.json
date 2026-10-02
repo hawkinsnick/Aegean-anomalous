@@ -28,6 +28,15 @@
         "authority_sign_inventories",
         "restoration_history",
         "rights"
+      ],
+      "verified": [
+        "official museum assemblage date 1700-1450 BC",
+        "Arkalochori Cave find context",
+        "inscribed double axe in votive metal assemblage"
+      ],
+      "source_classes": [
+        "OFFICIAL_MUSEUM_METADATA",
+        "SCHOLARLY_COMPARATIVE"
       ]
     },
     {
@@ -44,7 +53,16 @@
         "exact_sign_geometry",
         "authority_sign_inventories",
         "rights"
-      ]
+      ],
+      "verified": [
+        "reported 16-symbol inscription",
+        "reported 1937 Malia excavation",
+        "classified as Cretan Hieroglyphic for Braović et al. computational study"
+      ],
+      "source_classes": [
+        "OPEN_SCHOLARLY_SECONDARY"
+      ],
+      "caveat": "Primary excavation/catalogue verification remains open."
     }
   ]
 }
