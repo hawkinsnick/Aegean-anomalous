@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "status": "DEFERRED_UNTIL_EVIDENCE_PACKETS_COMPLETE",
+  "future_questions": [
+    "writing versus non-writing status where genuinely disputed",
+    "script membership and palaeographic identity",
+    "authenticity only where scholarship raises a substantive issue",
+    "readings/decipherments"
+  ],
+  "machine_work_remaining": [
+    "complete Arkalochori official object packet",
+    "complete Malia primary-source packet",
+    "systematic candidate inclusion/exclusion sweep",
+    "cross-project dependence reconciliation"
+  ]
+}
