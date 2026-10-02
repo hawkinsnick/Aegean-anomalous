@@ -14,5 +14,10 @@
     "final script/writing-status adjudication where evidence conflicts",
     "sign identity across scripts",
     "decipherment/readings"
-  ]
+  ],
+  "release_candidate": "2.0.0-rc.1",
+  "stop_assessment": {
+    "machine_work_remaining": true,
+    "external_wall": "Arkalochori is near source-saturated; Malia needs direct CHIC #328 pp.314–315/drawing; broader candidate discovery can continue but admission threshold intentionally rejects weak cases."
+  }
 }
