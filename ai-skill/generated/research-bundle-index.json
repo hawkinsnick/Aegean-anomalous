@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "project": "Aegean-anomalous",
+  "skill_version": "1.8.0",
+  "milestone": "CONSERVATION_AND_CLASSIFICATION_HISTORY",
+  "authoritative_inputs": [
+    "research/admission-policy.json",
+    "research/candidate-register.json",
+    "research/candidate-disposition-register.json",
+    "research/malia-evidence-packet.json",
+    "research/arkalochori-conservation-packet.json",
+    "research/classification-history.json",
+    "research/hypothesis-quarantine.json",
+    "research/source-quality-register.json",
+    "research/source-dependence.json",
+    "research/machine-work-ledger.json"
+  ],
+  "guardrails": [
+    "Admission does not imply authenticity, writing status, script identity, language or decipherment.",
+    "Proposed translations have no canonical phonetic effect.",
+    "Historical 14/15/16 Malia counts remain source-specific until segmentation is reconciled.",
+    "Visual resemblance does not establish sign identity."
+  ],
+  "generated_note": "Index points to repository evidence; it does not duplicate copyrighted source text."
+}
