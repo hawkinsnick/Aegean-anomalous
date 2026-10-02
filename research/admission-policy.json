@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "admit_if_any": [
+    "classification is materially disputed among scholarly sources",
+    "writing status is disputed and object is relevant to an existing Aegean corpus",
+    "object is repeatedly compared with two or more existing project scripts and benefits from neutral evidence separation"
+  ],
+  "admission_does_not_mean": [
+    "authenticity accepted",
+    "writing status established",
+    "membership in a single script established",
+    "language identified",
+    "decipherment accepted"
+  ],
+  "initial_candidates": [
+    {
+      "id": "ARKALOCHORI-AXE",
+      "status": "CANDIDATE",
+      "reason": "relationship to Cretan Hieroglyphic, Linear A and Phaistos sign repertoires is disputed"
+    },
+    {
+      "id": "MALIA-ALTAR-STONE",
+      "status": "CANDIDATE",
+      "reason": "classification and interpretation warrant authority-attributed comparison"
+    }
+  ]
+}
