@@ -26,6 +26,17 @@
       "id": "CMS-II.2-217-CHIC-292",
       "disposition": "EXCLUDED_WITH_REASON",
       "reason": "Same: formula occurrence alone does not satisfy anomalous admission criteria."
+    },
+    {
+      "id": "MA-V-HH-03-01",
+      "disposition": "EXCLUDED_WITH_REASON",
+      "reason": "Fragmentary four-sided clay bar from Malia is a normal Cretan Hieroglyphic document class and belongs in the Cretan Hieroglyphic corpus; no material classification dispute established.",
+      "evidence": "Later Malia prospection publication explicitly uses CHIC numbering/classification system and compares it to ten known Malia bars."
+    },
+    {
+      "id": "MA-V-YB-01",
+      "disposition": "EXCLUDED_WITH_REASON",
+      "reason": "Chamaizi-type vessel from Malia is part of the ordinary Malia Cretan Hieroglyphic document inventory; no independent anomalous criterion established."
     }
   ],
   "discovery_notes": [
