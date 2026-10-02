@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "target": "PRE_EXPERT_MAXIMUM",
+  "established": [
+    {
+      "gate": "neutral_admission_policy",
+      "status": "PASS"
+    },
+    {
+      "gate": "canonical_script_claims",
+      "status": "SEALED",
+      "count": 0
+    }
+  ],
+  "remaining_nonexpert_work": [
+    {
+      "id": "ANO-PRE-001",
+      "scope": "candidate discovery",
+      "action": "Register anomalous/disputed Aegean objects only when admission criteria and scholarly sources are documented."
+    },
+    {
+      "id": "ANO-PRE-002",
+      "scope": "Arkalochori Axe",
+      "action": "Reconcile object history, dimensions/material, 15-sign geometry, restoration evidence and competing classifications with source locators."
+    },
+    {
+      "id": "ANO-PRE-003",
+      "scope": "Malia Altar Stone",
+      "action": "Reconcile object identity, inscription geometry, CHIC relationship and competing classifications without choosing a decipherment."
+    },
+    {
+      "id": "ANO-PRE-004",
+      "scope": "cross-project links",
+      "action": "Link candidate sign-comparison assertions to Cretan Hieroglyphic, Linear A and Phaistos authorities without converting resemblance into equivalence."
+    }
+  ],
+  "human_only_boundary": [
+    {
+      "id": "ANO-HUM-001",
+      "decision": "adjudicate whether a candidate is writing and its script membership"
+    },
+    {
+      "id": "ANO-HUM-002",
+      "decision": "adjudicate sign identity/palaeographic correspondences"
+    },
+    {
+      "id": "ANO-HUM-003",
+      "decision": "adjudicate authenticity where disputed"
+    },
+    {
+      "id": "ANO-HUM-004",
+      "decision": "evaluate proposed readings/decipherments"
+    }
+  ],
+  "completion_rule": "The corpus is comprehensive for documented anomalous cases within its admission policy, not for every unusual Aegean mark or undeciphered object."
+}
