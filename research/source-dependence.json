@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "rules": [
+    "A modern paper repeating a CHIC object identity is not an independent archaeological witness.",
+    "A proposed decipherment is evidence of a proposal, not evidence that the decipherment is correct.",
+    "Cross-project records from Phaistos/Linear A/Cretan Hieroglyphic are linked, not duplicated as independent observations."
+  ],
+  "edges": [
+    {
+      "from": "modern computational classifications",
+      "to": "earlier epigraphic catalogues/publications",
+      "relation": "classification depends partly on inherited object/sign descriptions"
+    }
+  ]
+}
