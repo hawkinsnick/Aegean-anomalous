@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "milestone": "POST_1_0_MACHINE_MAXIMUM",
+  "items": [
+    {
+      "id": "ANO-PRE-001",
+      "status": "OPEN_DISCOVERY",
+      "completed": [
+        "formal admission criteria",
+        "three explicit dispositions"
+      ],
+      "remaining": [
+        "systematic literature sweep",
+        "excluded-case register"
+      ],
+      "blocker": "Open-ended discovery; bounded by documented admission criteria."
+    },
+    {
+      "id": "ANO-PRE-002",
+      "status": "PARTIAL",
+      "completed": [
+        "official museum context",
+        "comparative classification evidence"
+      ],
+      "remaining": [
+        "inventory number",
+        "dimensions/material authority",
+        "15-sign geometry source",
+        "restoration history"
+      ],
+      "blocker": "museum/primary publication metadata acquisition"
+    },
+    {
+      "id": "ANO-PRE-003",
+      "status": "PARTIAL",
+      "completed": [
+        "secondary scholarly object evidence",
+        "reported 16-symbol count"
+      ],
+      "remaining": [
+        "primary excavation/catalogue identity",
+        "exact geometry",
+        "CHIC concordance"
+      ],
+      "blocker": "primary source acquisition"
+    },
+    {
+      "id": "ANO-PRE-004",
+      "status": "READY_FOR_RECONCILIATION",
+      "completed": [
+        "dependence rules",
+        "Phaistos cross-reference-only disposition"
+      ],
+      "remaining": [
+        "stable identifiers into sister repositories",
+        "assertion-level links"
+      ],
+      "blocker": "cross-repository schema alignment"
+    }
+  ]
+}
