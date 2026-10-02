@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "rule": "Every reviewed case receives INCLUDED, CROSS_REFERENCE_ONLY, EXCLUDED_WITH_REASON, or DISCOVERY_PENDING.",
+  "records": [
+    {
+      "id": "ARKALOCHORI-AXE",
+      "disposition": "INCLUDED",
+      "reason": "writing/script classification materially disputed and repeatedly compared with established Aegean scripts"
+    },
+    {
+      "id": "MALIA-ALTAR-STONE",
+      "disposition": "INCLUDED",
+      "reason": "special classification/comparison problem in Cretan Hieroglyphic scholarship"
+    },
+    {
+      "id": "PHAISTOS-DISC",
+      "disposition": "CROSS_REFERENCE_ONLY",
+      "reason": "meets anomalous comparison criterion but already has a dedicated corpus; duplication would create false source independence"
+    }
+  ]
+}
