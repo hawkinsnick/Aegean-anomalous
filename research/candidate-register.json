@@ -20,6 +20,28 @@
         "interpretive_context": "museum discusses votive/cult deposition and alternative concealment/workshop interpretations",
         "evidence_class": "OFFICIAL_MUSEUM_METADATA",
         "verified_on": "2026-10-02"
+      },
+      "object_packet": {
+        "museum_inventory": "Χ2416",
+        "material": "bronze",
+        "condition": "intact, conserved",
+        "maximum_length_cm": 24,
+        "findspot": "Arkalochori Cave",
+        "date": "MM III–LM IA / 1700–1500 BC",
+        "inscription_layout": "three columns",
+        "sign_count": 15,
+        "source": "Heraklion Archaeological Museum object record",
+        "source_class": "OFFICIAL_MUSEUM_METADATA"
+      },
+      "scholarship_packet": {
+        "source": "Georgia Flouda 2015",
+        "claims": [
+          "fifteen signs",
+          "recent restoration evidence informs inscription review",
+          "study focuses on production, reception, display and deposition"
+        ],
+        "source_class": "PEER_REVIEWED_SCHOLARSHIP",
+        "interpretive_status": "ATTRIBUTED"
       }
     },
     {
