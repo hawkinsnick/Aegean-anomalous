@@ -16,6 +16,16 @@
       "id": "PHAISTOS-DISC",
       "disposition": "CROSS_REFERENCE_ONLY",
       "reason": "meets anomalous comparison criterion but already has a dedicated corpus; duplication would create false source independence"
+    },
+    {
+      "id": "CMS-VII-35-CHIC-205",
+      "disposition": "EXCLUDED_WITH_REASON",
+      "reason": "Formula-bearing Archanes comparandum is already explained inside Archanes/Cretan-Hieroglyphic evidence architecture; no independent anomalous classification case established."
+    },
+    {
+      "id": "CMS-II.2-217-CHIC-292",
+      "disposition": "EXCLUDED_WITH_REASON",
+      "reason": "Same: formula occurrence alone does not satisfy anomalous admission criteria."
     }
   ],
   "discovery_notes": [
@@ -29,5 +39,14 @@
       "disposition": "DISCOVERY_PENDING",
       "reason": "Reported in comparison literature; requires authoritative object identity and evidence that classification is materially disputed before admission."
     }
-  ]
+  ],
+  "discovery_method": {
+    "search_axes": [
+      "objects called unique/unclassified/disputed in Cretan Hieroglyphic scholarship",
+      "objects compared materially with Phaistos/Arkalochori/Malia",
+      "single-sign or nonstandard objects excluded from normal script corpora"
+    ],
+    "admission_threshold": "At least one documented material classification dispute or repeated cross-script comparison plus a reason neutral quarantine adds value.",
+    "anti_mission_creep": "Objects remain in their home corpus when ordinary uncertainty can be represented there."
+  }
 }
