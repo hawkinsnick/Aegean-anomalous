@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "object": "ARKALOCHORI-AXE / HM X2416",
+  "authority": "Flouda 2015",
+  "source_class": "PEER_REVIEWED_CONSERVATION_AND_MATERIALITY_STUDY",
+  "inscribed_surface_mm": {
+    "length_range": [
+      65.83,
+      66.55
+    ],
+    "width": 22.55
+  },
+  "manufacture": {
+    "sequence": "decorative vertical grooves preceded carving of the fifteen inscription signs in the mould",
+    "evidence": "fourth sign of central column crosses/overlies vertical groove",
+    "interpretation_status": "SOURCE_ATTRIBUTED"
+  },
+  "conservation": {
+    "year": 2010,
+    "methods": [
+      "portable XRF",
+      "electronic microscopy",
+      "mechanical cleaning under microscope"
+    ],
+    "prior_condition": [
+      "oxidized",
+      "heavily corroded",
+      "natural patina damaged by past acid treatment",
+      "wax caused false reddish-golden appearance"
+    ]
+  },
+  "inscription_observations": {
+    "sign_count": 15,
+    "layout": "three parallel vertical zones/columns",
+    "overdots": 3,
+    "overdot_locations": "above first signs of each column; third visible conditionally and in older photograph",
+    "direction_hypothesis": "top-down reading proposed by Flouda, not project-adjudicated",
+    "repeat_observation": "third sign of middle column confirmed same as fourth sign of first/left column despite corrosion",
+    "unique_signs_reported": 2
+  },
+  "classification": {
+    "writing_system": "Flouda argues probably glottographic",
+    "script_assignment": "cannot be indisputably assigned to Cretan Hieroglyphic or Linear A",
+    "project_status": "DISPUTED; NO CANONICAL SCRIPT ASSIGNMENT"
+  },
+  "guardrails": [
+    "Overdots are recorded as physical marks; Flouda's proposed directional function remains interpretive.",
+    "Formal similarities to Phaistos/Linear A do not establish identity or phonetic value.",
+    "Two 'unique' signs is an authority claim pending sign-by-sign concordance."
+  ]
+}
