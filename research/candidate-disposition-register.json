@@ -17,5 +17,17 @@
       "disposition": "CROSS_REFERENCE_ONLY",
       "reason": "meets anomalous comparison criterion but already has a dedicated corpus; duplication would create false source independence"
     }
+  ],
+  "discovery_notes": [
+    {
+      "candidate": "HM-992-SEAL-FRAGMENT",
+      "disposition": "DISCOVERY_PENDING",
+      "reason": "A single-symbol seal fragment is repeatedly discussed in Cretan Hieroglyphic/Phaistos comparison literature; assess whether it meets anomalous admission threshold or belongs only in Cretan Hieroglyphic."
+    },
+    {
+      "candidate": "MALIA-AXE",
+      "disposition": "DISCOVERY_PENDING",
+      "reason": "Reported in comparison literature; requires authoritative object identity and evidence that classification is materially disputed before admission."
+    }
   ]
 }
