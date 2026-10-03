@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "artifact": "MALIA-ALTAR-STONE",
+  "target": {
+    "catalogue": "CHIC",
+    "number": 328,
+    "pages": "314-315"
+  },
+  "acquisition_goal": [
+    "direct catalogue object description",
+    "catalogue sign segmentation/count",
+    "drawing/face layout locator",
+    "provenance/date statement",
+    "bibliographic concordance"
+  ],
+  "known_before_acquisition": {
+    "primary_1937": "14 characters bounded by bars",
+    "later_counts": [
+      15,
+      16
+    ],
+    "excavation_id": "MA/V Ya 01"
+  },
+  "decision_rules": [
+    "Do not choose 14/15/16 canonical count until direct CHIC segmentation is inspected.",
+    "If CHIC image/drawing rights are unclear, encode neutral metadata/locators rather than redistributing the figure.",
+    "Distinguish catalogue membership from proposed language/decipherment."
+  ],
+  "status": "TWO_PAGE_PRIMARY_CATALOGUE_TARGET"
+}
