@@ -5,10 +5,10 @@
   "rule": "A gate closes only when machine-resolvable work is complete or a concrete source/access/human-judgment blocker is named.",
   "release_policy": "Dot releases are internal checkpoints; work continues across them without requesting approval.",
   "remaining_machine_priority": [
-    "extract more Chapouthier primary physical/sign details",
-    "direct CHIC #328 verification",
-    "neutral Arkalochori geometry if lawful",
-    "continue candidate discovery with explicit negative controls"
+    "reconcile Chapouthier primary drawing/boundary bars against INSCRIBE/CHIC-linked 16-slot segmentation",
+    "neutral Arkalochori sign geometry if lawful",
+    "continue candidate discovery with explicit negative controls",
+    "seek direct CHIC #328 page/drawing only for historical segmentation provenance now that object metadata/transnumeration are independently routed"
   ],
   "human_only": [
     "final script/writing-status adjudication where evidence conflicts",
@@ -18,6 +18,6 @@
   "release_candidate": "2.0.0-rc.1",
   "stop_assessment": {
     "machine_work_remaining": true,
-    "external_wall": "Arkalochori is near source-saturated; Malia needs direct CHIC #328 pp.314–315/drawing; broader candidate discovery can continue but admission threshold intentionally rejects weak cases."
+    "external_wall": "Malia object identity, CHIC locator, material/museum/inventory and a 16-slot CHIC-linked digital transnumeration are now direct. Remaining Malia wall is historical segmentation reconciliation against Chapouthier/CHIC drawings; Arkalochori geometry and conservative candidate discovery remain."
   }
 }
