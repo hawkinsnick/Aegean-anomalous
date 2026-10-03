@@ -163,5 +163,49 @@
     "source": "Chapouthier 1938",
     "details": "spring 1937; farmer cultivating garden beside old Turkish road from Malia toward Neapolis, in a depression at locality rendered Stenakas/Kalamatis; block initially moved to edge of field; sunlight revealed characters; Henri van Effenterre made initial copy/photo; Marinatos arranged transfer to Candia and improved documentation; Chapouthier later studied original and commissioned cast/photo.",
     "status": "PRIMARY_SOURCE"
+  },
+  "inscribe_direct_record": {
+    "source": "ERC INSCRIBE 3D Web Viewer",
+    "identifier": "MA/V Ya 01",
+    "chic": "#328",
+    "chic_pages": "314-315",
+    "document_type": "Receptacle",
+    "subtype": "non-portable stone libation table",
+    "material": "Limestone",
+    "museum": "Heraklion Archaeological Museum",
+    "inventory": "Λ E-415",
+    "findspot": "Malia, stray find",
+    "chronology": "MM II or III?",
+    "script_label_by_source": "Cretan Hieroglyphic",
+    "standard_transnumeration": [
+      "062",
+      "034",
+      "002",
+      "056",
+      "070",
+      "025",
+      "019",
+      "051",
+      "070",
+      "094",
+      "034",
+      "056",
+      "077",
+      "049",
+      "038",
+      "029"
+    ],
+    "slot_count": 16,
+    "project_derived_distinct_sign_numbers": 13,
+    "project_derived_repeated_sign_numbers": [
+      "034",
+      "056",
+      "070"
+    ],
+    "rights": "INSCRIBE 3D model is scientific/non-profit and not redistributed; museum/model copyright retained.",
+    "status": "DIRECT_CHIC_LINKED_DIGITAL_SEGMENTATION"
+  },
+  "count_reconciliation": {
+    "machine_update": "INSCRIBE supplies a CHIC-linked 16-slot transnumeration with 13 distinct sign numbers. This establishes the later 16-count segmentation as an explicit authority state but does not explain Chapouthier 1937's 14-character count bounded by bars; direct drawing/segmentation comparison remains required."
   }
 }
