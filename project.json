@@ -1,7 +1,7 @@
 {
   "name": "Aegean Anomalous Inscriptions",
-  "version": "2.0.0-rc.1",
-  "status": "PRE_EXPERT_MAXIMUM_RELEASE_CANDIDATE",
+  "version": "2.0.0-rc.2",
+  "status": "STRUCTURED_AUTHORITY_RECONCILIATION",
   "canonical_script_claims": 0,
   "principles": [
     "object-first",
