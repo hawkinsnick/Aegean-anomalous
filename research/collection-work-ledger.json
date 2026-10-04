@@ -1,0 +1,400 @@
+{
+  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
+  "config_sha256": "54b2585b512f886318fc316ace67a404f2c5f4f1862e8d9007a38934c7cf847b",
+  "evidence_fingerprint": "0ca93a6397886e36f52dc82cc25944ebde34015be4838b60196525cbbdc310c6",
+  "input_sha256": {
+    "data/sources.json": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
+    "research/acquisition-queue.json": "d6057eb759743dc6370e8613db057ffb54e47b59255cfddf5286e46753a26541",
+    "research/admission-policy.json": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
+    "research/arkalochori-conservation-packet.json": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
+    "research/candidate-disposition-register.json": "e57b15fe68799c75ccd07f884261073da29f108100da9419030afccf57f4ebc3",
+    "research/candidate-register.json": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+    "research/classification-history.json": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+    "research/counting-convention-register.json": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+    "research/hypothesis-quarantine.json": "bbb003b5d861c3bd91bd26dfd281c4ae2966370c40e95ff1e9ceb2d34f9524ae",
+    "research/machine-work-ledger.json": "600a44807a7b530cc08de393ba4b2a81fa912b627df5f03ebd25be378f80704b",
+    "research/malia-evidence-packet.json": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+    "research/pre-expert-gate-summary.json": "2a710980f92cd1a5647263ceefb1c25ccf630003a4bc96488c2f6434dc21da7c",
+    "research/pre-expert-maximum.json": "1e9a2abd926c9ac457dad44c03126e3bf7f9927d720db55fe4ed89479d730508",
+    "research/rights-register.json": "695dc8e45fd70669698a24bec73fab6e5abd6b487520d88030328f39eb4584b4",
+    "research/source-dependence.json": "01056bebb13d42bc289c06979ce74d5c3f86d2a1d43b6703fa4559d817807b4c",
+    "research/source-quality-register.json": "46f4a8c35efa37b1f123f7d70beb84aa962c750ee2a9abf12711063674900ea0"
+  },
+  "native_review_links": [
+    "research/expert-review-packet.json",
+    "research/admission-policy.json",
+    "LICENSING.md"
+  ],
+  "question_definitions": {
+    "language_or_script_classification": "Attribute membership and classification to named authorities; preserve disagreement.",
+    "object_identity": "Confirm the object, face and inventory concordance; distinguish source entries from physical objects.",
+    "reading_and_layout": "Compare the exact edition rows, figures and layout; preserve competing readings with page/line locators.",
+    "reuse_rights": "Check the applicable license or permission for each component; project terms do not override upstream rights.",
+    "source_independence": "Identify shared editorial and photographic lineage; a derivative is not an independent witness.",
+    "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
+  },
+  "record_identity_is_not_object_identity": true,
+  "record_views": [
+    {
+      "enumerated": 2,
+      "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+      "unit": "quarantine_candidate",
+      "view": "quarantine-candidates"
+    }
+  ],
+  "records": [
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/candidates/0",
+      "native_id": "ARKALOCHORI-AXE",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "quarantine-candidates:ARKALOCHORI-AXE",
+      "source_file_sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+      "source_lead_pointers": [
+        "/candidates/0/official_museum_evidence/source",
+        "/candidates/0/object_packet/source",
+        "/candidates/0/scholarship_packet/source"
+      ],
+      "source_path": "research/candidate-register.json",
+      "source_record_sha256": "53f84896d02d97f6adadb6909d9a17e224fc99e09195b9a670ae234083563914",
+      "unit": "quarantine_candidate"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/candidates/1",
+      "native_id": "MALIA-ALTAR-STONE",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "quarantine-candidates:MALIA-ALTAR-STONE",
+      "source_file_sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+      "source_lead_pointers": [
+        "/candidates/1/literature_evidence/source"
+      ],
+      "source_path": "research/candidate-register.json",
+      "source_record_sha256": "691b39e93c2e2b57731b35f5ff2a29af0942edd57bb5707765dfddeeb07469f7",
+      "unit": "quarantine_candidate"
+    }
+  ],
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "review_dimensions": [
+    "object_identity",
+    "reading_and_layout",
+    "uncertainty",
+    "language_or_script_classification",
+    "source_independence",
+    "reuse_rights"
+  ],
+  "schema_version": "1.0",
+  "scientific_approval_granted": false,
+  "scope": "Declared native snapshots and source/task registers only; not a language-wide inventory",
+  "source_leads": [
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/candidates/0/official_museum_evidence/source",
+      "kind": "source",
+      "source_path": "research/candidate-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/candidates/0/object_packet/source",
+      "kind": "source",
+      "source_path": "research/candidate-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/candidates/0/scholarship_packet/source",
+      "kind": "source",
+      "source_path": "research/candidate-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/candidates/1/literature_evidence/source",
+      "kind": "source",
+      "source_path": "research/candidate-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/observations/0/source",
+      "kind": "source",
+      "source_path": "research/counting-convention-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/observations/1/source",
+      "kind": "source",
+      "source_path": "research/counting-convention-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/observations/2/source",
+      "kind": "source",
+      "source_path": "research/counting-convention-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/observations/3/source",
+      "kind": "source",
+      "source_path": "research/counting-convention-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/observations/4/source",
+      "kind": "source",
+      "source_path": "research/counting-convention-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/observations/5/source",
+      "kind": "source",
+      "source_path": "research/counting-convention-register.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/decipherment_quarantine/0/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/decipherment_quarantine/1/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_source/title",
+      "kind": "title",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_source/doi",
+      "kind": "doi",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_sources/0/title",
+      "kind": "title",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_sources/0/doi",
+      "kind": "doi",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_sources/1/title",
+      "kind": "title",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_sources/1/doi",
+      "kind": "doi",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_sources/2/title",
+      "kind": "title",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sign_count_history/0/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sign_count_history/1/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/sign_count_history/2/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/chic_locator/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/primary_count_definition/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/find_context_precision/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/inscribe_direct_record/source",
+      "kind": "source",
+      "source_path": "research/malia-evidence-packet.json"
+    }
+  ],
+  "tasks": [
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/items/0",
+      "native_status": "OPEN_DISCOVERY",
+      "native_task_id": "ANO-PRE-001",
+      "source_path": "research/machine-work-ledger.json",
+      "task": null
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/items/1",
+      "native_status": "CONSERVATION_GROUNDED_PACKET_COMPLETE",
+      "native_task_id": "ANO-PRE-002",
+      "source_path": "research/machine-work-ledger.json",
+      "task": null
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/items/2",
+      "native_status": "PRIMARY_LINEAGE_STRONG",
+      "native_task_id": "ANO-PRE-003",
+      "source_path": "research/machine-work-ledger.json",
+      "task": null
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/items/3",
+      "native_status": "READY_FOR_RECONCILIATION",
+      "native_task_id": "ANO-PRE-004",
+      "source_path": "research/machine-work-ledger.json",
+      "task": null
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only/0",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-gate-summary.json",
+      "task": "final script/writing-status adjudication where evidence conflicts"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only/1",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-gate-summary.json",
+      "task": "sign identity across scripts"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only/2",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-gate-summary.json",
+      "task": "decipherment/readings"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/remaining_nonexpert_work/0",
+      "native_status": null,
+      "native_task_id": "ANO-PRE-001",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Register anomalous/disputed Aegean objects only when admission criteria and scholarly sources are documented."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/remaining_nonexpert_work/1",
+      "native_status": null,
+      "native_task_id": "ANO-PRE-002",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Reconcile object history, dimensions/material, 15-sign geometry, restoration evidence and competing classifications with source locators."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/remaining_nonexpert_work/2",
+      "native_status": null,
+      "native_task_id": "ANO-PRE-003",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Reconcile object identity, inscription geometry, CHIC relationship and competing classifications without choosing a decipherment."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/remaining_nonexpert_work/3",
+      "native_status": null,
+      "native_task_id": "ANO-PRE-004",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "Link candidate sign-comparison assertions to Cretan Hieroglyphic, Linear A and Phaistos authorities without converting resemblance into equivalence."
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only_boundary/0",
+      "native_status": null,
+      "native_task_id": "ANO-HUM-001",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "adjudicate whether a candidate is writing and its script membership"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only_boundary/1",
+      "native_status": null,
+      "native_task_id": "ANO-HUM-002",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "adjudicate sign identity/palaeographic correspondences"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only_boundary/2",
+      "native_status": null,
+      "native_task_id": "ANO-HUM-003",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "adjudicate authenticity where disputed"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "HUMAN_OR_EXTERNAL_NATIVE_BOUNDARY",
+      "json_pointer": "/human_only_boundary/3",
+      "native_status": null,
+      "native_task_id": "ANO-HUM-004",
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "evaluate proposed readings/decipherments"
+    }
+  ],
+  "terminal_pre_expert_maximum_established": false
+}
