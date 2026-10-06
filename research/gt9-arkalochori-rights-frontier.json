@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Aegean anomalous",
+  "candidate": "ARKALOCHORI-AXE",
+  "checked": "2026-10-06",
+  "target": "DEFENSIBLE_SCORE_GT_9",
+  "source": {
+    "citation": "Georgia Flouda 2015, Materiality and script: constructing a narrative on the Minoan inscribed axe from the Arkalochori cave",
+    "scope": [
+      "Heraklion Museum inv. X2416",
+      "15 signs",
+      "three vertical zones",
+      "2010 non-destructive examination/restoration context",
+      "manufacture/materiality observations"
+    ],
+    "access": "author-posted/public full-text route located",
+    "rights_boundary": "Public availability does not establish CC reuse for article text or embedded museum photographs/drawings; figure content is explicitly flagged as potentially copyrighted."
+  },
+  "work_program": [
+    "Use bibliographic and factual object/materiality assertions with attribution.",
+    "Keep photographs and Giuliano Merlatti drawing outside redistribution until explicit component permission/terms are established.",
+    "Seek independent/right-clear geometry or museum permission rather than tracing protected figures."
+  ],
+  "boundary": "Do not convert public inspection into image redistribution rights or canonical script assignment."
+}
