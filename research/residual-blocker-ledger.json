@@ -3,7 +3,7 @@
   "corpus": "Aegean anomalous",
   "target": "LINEAR_A_METHOD_PARITY_PRE_EXPERT_MAXIMUM",
   "checked": "2026-10-06",
-  "assessment": "OPEN_MACHINE_FRONTIER",
+  "assessment": "RIGHTS_ACCESS_AND_SCIENTIFIC_ADJUDICATION_DOMINANT_ENGINEERING_COMPLETE",
   "blockers": [
     {
       "id": "ANO-BLK-001",
@@ -22,7 +22,7 @@
     {
       "id": "ANO-BLK-003",
       "class": "ENGINEERING",
-      "status": "OPEN",
+      "status": "COMPLETE",
       "needed": "API, export, parity validation and cross-project assertion links"
     },
     {
