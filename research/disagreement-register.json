@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Aegean anomalous",
+  "items": [
+    {
+      "id": "ANO-DIS-001",
+      "scope": "Arkalochori Axe",
+      "kind": "script_membership",
+      "status": "DISPUTED",
+      "boundary": "No canonical Cretan Hieroglyphic/Linear A/other assignment."
+    },
+    {
+      "id": "ANO-DIS-002",
+      "scope": "Arkalochori Axe",
+      "kind": "reading_direction/mark_function",
+      "status": "ATTRIBUTED_HYPOTHESIS",
+      "boundary": "Flouda top-down/overdot interpretation not canonical."
+    },
+    {
+      "id": "ANO-DIS-003",
+      "scope": "Malia Altar Stone",
+      "kind": "sign_count",
+      "status": "14_15_16_PRESERVED",
+      "boundary": "Chapouthier 1937=14 characters between bars; later institutional=15; INSCRIBE/modern segmentation=16."
+    },
+    {
+      "id": "ANO-DIS-004",
+      "scope": "Malia Altar Stone",
+      "kind": "chronology",
+      "status": "SOURCE_CONFLICT",
+      "boundary": "Stray-find context limits archaeological dating precision."
+    },
+    {
+      "id": "ANO-DIS-005",
+      "scope": "decipherments",
+      "kind": "linguistic_interpretation",
+      "status": "QUARANTINED",
+      "boundary": "No proposed translation supplies canonical phonetic values."
+    }
+  ]
+}
