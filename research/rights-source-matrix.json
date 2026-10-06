@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Aegean anomalous",
+  "sources": [
+    {
+      "id": "Flouda-2015",
+      "rights": "PUBLIC_SCHOLARLY_ROUTE; FIGURE_REUSE_NOT_ASSUMED",
+      "use": "attributed conservation/materiality facts; no protected figure redistribution without terms"
+    },
+    {
+      "id": "Chapouthier-1937-1938",
+      "rights": "PERSEE_PUBLIC_ACCESS; REUSE_COMPONENT_TERMS_APPLY",
+      "use": "primary factual/source history and lawful inspection; drawings/plates handled separately"
+    },
+    {
+      "id": "CHIC",
+      "rights": "COPYRIGHTED_CRITICAL_CORPUS",
+      "use": "identifier/locator; protected drawings/systematic derivative require permission"
+    },
+    {
+      "id": "INSCRIBE",
+      "rights": "SCIENTIFIC_NONPROFIT_MODEL; COPYRIGHT_RETAINED",
+      "use": "metadata/transnumeration assertions with attribution; 3D model not redistributed"
+    },
+    {
+      "id": "Braovic-2024",
+      "rights": "OPEN_SCHOLARLY_PUBLICATION_ROUTE",
+      "use": "review/classification metadata with attribution"
+    }
+  ],
+  "rule": "Public inspection does not transfer image/model/facsimile rights."
+}
