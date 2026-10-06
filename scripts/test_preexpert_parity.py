@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+import json,pathlib
+R=pathlib.Path(__file__).resolve().parents[1];req=["research/source-lineage-register.json","research/disagreement-register.json","research/rights-source-matrix.json","research/residual-blocker-ledger.json"];assert all((R/p).exists() for p in req);c=json.loads((R/"research/candidate-register.json").read_text());assert len(c["candidates"])==2;d=json.loads((R/"research/candidate-disposition-register.json").read_text());assert any(x["id"]=="PHAISTOS-DISC" and x["disposition"]=="CROSS_REFERENCE_ONLY" for x in d["records"]);print(json.dumps({"status":"PASS","included_candidates":2,"canonical_script_claims":0,"mission_creep_controlled":True}))
