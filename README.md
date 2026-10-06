@@ -11,3 +11,7 @@ See `research/admission-policy.json`, `research/pre-expert-maximum.json`, and `a
 
 ## Offline corpus browser
 Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-browser.html`. It searches only files explicitly admitted by `research/browser-sources.json`. Browser admission requires rights/provenance review; never recursively ingest restricted or raw upstream material. Display does not establish decipherment, source independence, or expert validation.
+
+
+## Linear A method-parity gate
+Aegean Anomalous is now a controlled evidence quarantine with explicit source lineage, disagreement and component-rights controls, research API/export/validation interfaces, and strict home-corpus/cross-reference rules. Zero canonical script claims is intentional. See `docs/RIGHTS-ONLY-READINESS.md` and `research/residual-blocker-ledger.json`.
