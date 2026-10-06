@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Aegean anomalous",
+  "target": "LINEAR_A_METHOD_PARITY_PRE_EXPERT_MAXIMUM",
+  "checked": "2026-10-06",
+  "assessment": "OPEN_MACHINE_FRONTIER",
+  "blockers": [
+    {
+      "id": "ANO-BLK-001",
+      "class": "RIGHTS_ACCESS",
+      "status": "BLOCKED",
+      "scope": "Arkalochori sign geometry",
+      "needed": "lawfully reusable authoritative drawing or independent object documentation"
+    },
+    {
+      "id": "ANO-BLK-002",
+      "class": "RIGHTS_ACCESS",
+      "status": "BLOCKED",
+      "scope": "Malia CHIC/drawing segmentation",
+      "needed": "direct rights-compatible CHIC/drawing evidence to reconcile historical counts geometrically"
+    },
+    {
+      "id": "ANO-BLK-003",
+      "class": "ENGINEERING",
+      "status": "OPEN",
+      "needed": "API, export, parity validation and cross-project assertion links"
+    },
+    {
+      "id": "ANO-BLK-004",
+      "class": "SCIENTIFIC_REVIEW",
+      "status": "DOWNSTREAM",
+      "needed": "adjudicate writing/script membership, sign identity, authenticity where applicable, and readings"
+    }
+  ]
+}
