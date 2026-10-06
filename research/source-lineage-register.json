@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "corpus": "Aegean anomalous",
+  "lineages": [
+    {
+      "id": "ANO-LIN-ARK",
+      "object": "ARKALOCHORI-AXE",
+      "sources": [
+        "Heraklion Archaeological Museum",
+        "Flouda 2015"
+      ],
+      "roles": [
+        "official object metadata",
+        "conservation/materiality"
+      ],
+      "boundary": "Museum script label and Flouda classification arguments are attributed, not project adjudication."
+    },
+    {
+      "id": "ANO-LIN-MALIA",
+      "object": "MALIA-ALTAR-STONE",
+      "sources": [
+        "Chapouthier 1937",
+        "Chapouthier 1938",
+        "CHIC #328",
+        "INSCRIBE MA/V Ya 01"
+      ],
+      "roles": [
+        "primary report",
+        "primary edition",
+        "later catalogue",
+        "digital segmentation"
+      ],
+      "boundary": "14/15/16 counts are historical/segmentation states, not votes."
+    },
+    {
+      "id": "ANO-LIN-COMPUTATIONAL",
+      "sources": [
+        "Braović et al. 2024",
+        "later decipherment proposals"
+      ],
+      "role": "research/reception",
+      "boundary": "Computational classification or decipherment is evidence of a proposal, not accepted reading."
+    }
+  ],
+  "rules": [
+    "Home-corpus records are linked, not duplicated as independent witnesses.",
+    "Object evidence, sign segmentation and script classification are separate assertion classes.",
+    "Cross-script resemblance never establishes phonetic equivalence."
+  ]
+}
