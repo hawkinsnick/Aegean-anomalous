@@ -1,8 +1,18 @@
 {
-  "schema_version": "1.0",
-  "project": "Aegean-anomalous",
-  "skill_version": "1.8.0",
-  "milestone": "CONSERVATION_AND_CLASSIFICATION_HISTORY",
+  "artifacts": [
+    {
+      "bytes": 17573,
+      "path": "research/collection-work-ledger.json",
+      "role": "collection_work_ledger",
+      "sha256": "f15eabd1786b2e304cbe6d390ea681aaf7aaffa23f7e98fe5922cdbc7441a30e"
+    },
+    {
+      "bytes": 1895,
+      "path": "review/collection-packet.json",
+      "role": "collection_review_packet",
+      "sha256": "1de6d77053a92893868c3e38dd60c48f7ac7cd52f410d15986ec90b52d3f44d1"
+    }
+  ],
   "authoritative_inputs": [
     "research/admission-policy.json",
     "research/candidate-register.json",
@@ -13,13 +23,20 @@
     "research/hypothesis-quarantine.json",
     "research/source-quality-register.json",
     "research/source-dependence.json",
-    "research/machine-work-ledger.json"
+    "research/machine-work-ledger.json",
+    "research/collection-work-ledger.json",
+    "review/collection-packet.json"
   ],
+  "collection_evidence_fingerprint": "0ca93a6397886e36f52dc82cc25944ebde34015be4838b60196525cbbdc310c6",
+  "generated_note": "Index points to repository evidence; it does not duplicate copyrighted source text.",
   "guardrails": [
     "Admission does not imply authenticity, writing status, script identity, language or decipherment.",
     "Proposed translations have no canonical phonetic effect.",
     "Historical 14/15/16 Malia counts remain source-specific until segmentation is reconciled.",
     "Visual resemblance does not establish sign identity."
   ],
-  "generated_note": "Index points to repository evidence; it does not duplicate copyrighted source text."
+  "milestone": "CONSERVATION_AND_CLASSIFICATION_HISTORY",
+  "project": "Aegean-anomalous",
+  "schema_version": "1.0",
+  "skill_version": "1.8.0"
 }

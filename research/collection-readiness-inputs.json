@@ -1,0 +1,39 @@
+{
+  "native_review_links": [
+    "research/expert-review-packet.json",
+    "research/admission-policy.json",
+    "LICENSING.md"
+  ],
+  "public_payload_rule": "Identifiers and source pointers only; no new transcriptions or source images. Restricted A/B derivatives stay local.",
+  "record_sets": [
+    {
+      "id_key": "id",
+      "name": "quarantine-candidates",
+      "path": "research/candidate-register.json",
+      "pointer": "/candidates",
+      "unit": "quarantine_candidate"
+    }
+  ],
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "schema_version": "1.0",
+  "scope_rule": "Every row in declared views is indexed; overlapping views are never summed as unique objects. Discovery outside these views remains open.",
+  "source_discovery_rule": "Declare new native source/task registers here so offline replay and the collection report include them.",
+  "source_files": [
+    "data/sources.json",
+    "research/acquisition-queue.json",
+    "research/admission-policy.json",
+    "research/arkalochori-conservation-packet.json",
+    "research/candidate-disposition-register.json",
+    "research/candidate-register.json",
+    "research/classification-history.json",
+    "research/counting-convention-register.json",
+    "research/hypothesis-quarantine.json",
+    "research/machine-work-ledger.json",
+    "research/malia-evidence-packet.json",
+    "research/pre-expert-gate-summary.json",
+    "research/pre-expert-maximum.json",
+    "research/rights-register.json",
+    "research/source-dependence.json",
+    "research/source-quality-register.json"
+  ]
+}
