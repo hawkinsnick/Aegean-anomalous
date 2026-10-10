@@ -15,3 +15,5 @@ Run `python scripts/build_corpus_browser.py` to generate `workbench/corpus-brows
 
 ## Linear A method-parity gate
 Aegean Anomalous is now a controlled evidence quarantine with explicit source lineage, disagreement and component-rights controls, research API/export/validation interfaces, and strict home-corpus/cross-reference rules. Zero canonical script claims is intentional. See `docs/RIGHTS-ONLY-READINESS.md` and `research/residual-blocker-ledger.json`.
+
+Fleet research-contract implementation and replay: [admission guide](docs/FLEET-ADMISSION.md).
