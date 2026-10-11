@@ -1,10 +1,11 @@
 {
   "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "54b2585b512f886318fc316ace67a404f2c5f4f1862e8d9007a38934c7cf847b",
-  "evidence_fingerprint": "0ca93a6397886e36f52dc82cc25944ebde34015be4838b60196525cbbdc310c6",
+  "config_sha256": "930525b964c9faffc79513ebad68ba2f410be2f54917be9cd0b2ca5f23c31767",
+  "evidence_fingerprint": "ea52d150a2c671a927fe9f1c3bde195099da14ef73f1ec9301066ee77b3944e0",
   "input_sha256": {
     "data/sources.json": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
+    "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
     "research/acquisition-queue.json": "d6057eb759743dc6370e8613db057ffb54e47b59255cfddf5286e46753a26541",
     "research/admission-policy.json": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
     "research/arkalochori-conservation-packet.json": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
@@ -12,6 +13,7 @@
     "research/candidate-register.json": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
     "research/classification-history.json": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
     "research/counting-convention-register.json": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+    "research/cross-corpus-dependencies.json": "d6aed12afca70444c6a9dc54bcd89e0d40cf01ed1091e0fef78269b241ea67ef",
     "research/hypothesis-quarantine.json": "bbb003b5d861c3bd91bd26dfd281c4ae2966370c40e95ff1e9ceb2d34f9524ae",
     "research/machine-work-ledger.json": "600a44807a7b530cc08de393ba4b2a81fa912b627df5f03ebd25be378f80704b",
     "research/malia-evidence-packet.json": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",

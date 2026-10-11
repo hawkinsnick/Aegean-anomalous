@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "master_repository": "hawkinsnick/Linear-A",
+  "master_registry_path": "corpus-factory/cross-corpus-dependencies.json",
+  "scope": "Known source-supported cross-repository dependencies only. Absence from this register is not proof of independence or physical uniqueness.",
+  "dependency_groups": [
+    {
+      "physical_identity_certified": false,
+      "independent_witnesses_established": false,
+      "classification_transfer_allowed": false,
+      "group_id": "CHIC-MALIA-328",
+      "relation": "SOURCE_ASSERTED_CATALOGUE_CORRESPONDENCE",
+      "authority": "Aegean-anomalous Malia packet explicitly refers to CHIC #328 through INSCRIBE; counting/classification disputes remain separate.",
+      "participants": [
+        {
+          "repository": "hawkinsnick/Cretan-hieroglyphs",
+          "record_id": "CHIC-328",
+          "evidence": [
+            {
+              "path": "corpus/chic-catalogue-spine.json",
+              "sha256": "2855ec632844fa215929b33222a76a155d17abb0403889bf045a9e9f39efdfe8",
+              "pointer": "/327/id",
+              "expected": "CHIC-328"
+            }
+          ]
+        },
+        {
+          "repository": "hawkinsnick/Aegean-anomalous",
+          "record_id": "MALIA-ALTAR-STONE",
+          "evidence": [
+            {
+              "path": "research/malia-evidence-packet.json",
+              "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+              "pointer": "/object_id",
+              "expected": "MALIA-ALTAR-STONE"
+            },
+            {
+              "path": "research/malia-evidence-packet.json",
+              "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+              "pointer": "/inscribe_direct_record/chic",
+              "expected": "#328"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "physical_identity_certified": false,
+  "independence_established": false
+}

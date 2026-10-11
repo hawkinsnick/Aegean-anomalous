@@ -34,6 +34,8 @@
     "research/pre-expert-maximum.json",
     "research/rights-register.json",
     "research/source-dependence.json",
-    "research/source-quality-register.json"
+    "research/source-quality-register.json",
+    "research/cross-corpus-dependencies.json",
+    "docs/AI-INTEGRITY.md"
   ]
 }
