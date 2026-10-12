@@ -1,16 +1,136 @@
 {
   "artifacts": [
     {
-      "bytes": 17573,
+      "path": "ai-skill/SKILL.md",
+      "role": "native_authority",
+      "sha256": "cc1f60303ce09935e64a2adb25abf1d98f8180a4a9236df325202a8da7bb85d0",
+      "bytes": 2874
+    },
+    {
+      "path": "ai-skill/references/authority-profile.json",
+      "role": "native_authority",
+      "sha256": "e65a6528b8707c925c771a15dfd3d8b5f80fde8f594fe9f7d7d508a29833d3f4",
+      "bytes": 1358
+    },
+    {
+      "path": "ai-skill/scripts/build_bundle.py",
+      "role": "native_authority",
+      "sha256": "506258212d294ab6fda8a941abda01c3bf4e5a2fe8fb975ab49e42aee1b90320",
+      "bytes": 2222
+    },
+    {
+      "path": "ai-skill/scripts/publish_sync.py",
+      "role": "native_authority",
+      "sha256": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+      "bytes": 2836
+    },
+    {
+      "path": "ai-skill/scripts/validate_bundle.py",
+      "role": "native_authority",
+      "sha256": "e6a707580079b55f3f80c3cabced40974b60b4054da7abb0b4e2a27fcc676486",
+      "bytes": 1888
+    },
+    {
+      "path": "data/sources.json",
+      "role": "native_authority",
+      "sha256": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
+      "bytes": 690
+    },
+    {
+      "path": "docs/AI-INTEGRITY.md",
+      "role": "native_authority",
+      "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+      "bytes": 1766
+    },
+    {
+      "path": "project.json",
+      "role": "native_authority",
+      "sha256": "e11d2d0fd85334cfa83206735c4cec62e6481fed5b4ec45a9e150cb770fe3af9",
+      "bytes": 310
+    },
+    {
+      "path": "research/admission-policy.json",
+      "role": "native_authority",
+      "sha256": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
+      "bytes": 913
+    },
+    {
+      "path": "research/arkalochori-conservation-packet.json",
+      "role": "native_authority",
+      "sha256": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
+      "bytes": 1940
+    },
+    {
+      "path": "research/candidate-disposition-register.json",
+      "role": "native_authority",
+      "sha256": "e57b15fe68799c75ccd07f884261073da29f108100da9419030afccf57f4ebc3",
+      "bytes": 3167
+    },
+    {
+      "path": "research/candidate-register.json",
+      "role": "native_authority",
+      "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+      "bytes": 3022
+    },
+    {
+      "path": "research/classification-history.json",
+      "role": "native_authority",
+      "sha256": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+      "bytes": 1991
+    },
+    {
+      "bytes": 17784,
       "path": "research/collection-work-ledger.json",
       "role": "collection_work_ledger",
-      "sha256": "f15eabd1786b2e304cbe6d390ea681aaf7aaffa23f7e98fe5922cdbc7441a30e"
+      "sha256": "5b2313b064b07a960052c60458ce6c96894b6b8d2d3465e63c68f5269fb28e3f"
+    },
+    {
+      "path": "research/cross-corpus-dependencies.json",
+      "role": "native_authority",
+      "sha256": "d6aed12afca70444c6a9dc54bcd89e0d40cf01ed1091e0fef78269b241ea67ef",
+      "bytes": 1990
+    },
+    {
+      "path": "research/hypothesis-quarantine.json",
+      "role": "native_authority",
+      "sha256": "bbb003b5d861c3bd91bd26dfd281c4ae2966370c40e95ff1e9ceb2d34f9524ae",
+      "bytes": 1038
+    },
+    {
+      "path": "research/machine-work-ledger.json",
+      "role": "native_authority",
+      "sha256": "600a44807a7b530cc08de393ba4b2a81fa912b627df5f03ebd25be378f80704b",
+      "bytes": 2235
+    },
+    {
+      "path": "research/malia-evidence-packet.json",
+      "role": "native_authority",
+      "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+      "bytes": 7891
+    },
+    {
+      "path": "research/pre-expert-maximum.json",
+      "role": "native_authority",
+      "sha256": "1e9a2abd926c9ac457dad44c03126e3bf7f9927d720db55fe4ed89479d730508",
+      "bytes": 1847
+    },
+    {
+      "path": "research/source-dependence.json",
+      "role": "native_authority",
+      "sha256": "01056bebb13d42bc289c06979ce74d5c3f86d2a1d43b6703fa4559d817807b4c",
+      "bytes": 611
+    },
+    {
+      "path": "research/source-quality-register.json",
+      "role": "native_authority",
+      "sha256": "46f4a8c35efa37b1f123f7d70beb84aa962c750ee2a9abf12711063674900ea0",
+      "bytes": 919
     },
     {
       "bytes": 1895,
       "path": "review/collection-packet.json",
       "role": "collection_review_packet",
-      "sha256": "1de6d77053a92893868c3e38dd60c48f7ac7cd52f410d15986ec90b52d3f44d1"
+      "sha256": "9fc5d698faed717c5718e3ed3a645d8467a5464f6af60485c266aab3af19bc8f"
     }
   ],
   "authoritative_inputs": [
@@ -27,7 +147,7 @@
     "research/collection-work-ledger.json",
     "review/collection-packet.json"
   ],
-  "collection_evidence_fingerprint": "0ca93a6397886e36f52dc82cc25944ebde34015be4838b60196525cbbdc310c6",
+  "collection_evidence_fingerprint": "ea52d150a2c671a927fe9f1c3bde195099da14ef73f1ec9301066ee77b3944e0",
   "generated_note": "Index points to repository evidence; it does not duplicate copyrighted source text.",
   "guardrails": [
     "Admission does not imply authenticity, writing status, script identity, language or decipherment.",
@@ -38,5 +158,6 @@
   "milestone": "CONSERVATION_AND_CLASSIFICATION_HISTORY",
   "project": "Aegean-anomalous",
   "schema_version": "1.0",
-  "skill_version": "1.8.0"
+  "skill_version": "1.8.0",
+  "source_commit": "51df874659e98693e59aba24f4b7072ae0837896"
 }
