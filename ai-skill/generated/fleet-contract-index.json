@@ -39,13 +39,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "f4f53c7c5355ea135563dc33ffb64a947cc622c338ce2ba96b87c5dce3ca5aa9",
-      "bytes": 4020
+      "sha256": "f657e567eec5f6acc063b97d90d2f26cbadb22cef27ba97ef0eca7f1ad212f84",
+      "bytes": 5009
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "825c7d7472ab6a9654f92fda8b9d4885927edb4edff1399f534b1a2b617c195b",
-      "bytes": 6787
+      "sha256": "2a2521b535ac04f26c7456c727cedd8fdcfec87c371794644d13de6a0b5bf5c6",
+      "bytes": 7790
     },
     {
       "path": "ai-skill/manifest.json",
@@ -69,8 +69,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "1ed7773acf706f40b51fcb7133b90f42cfe82aff645a512eea8ae7f6091734c7",
-      "bytes": 2418
+      "sha256": "9c99256bf6c1c8c0155103de60790a2cc7ff94d51ad8513bcf97d22d23350337",
+      "bytes": 2605
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -88,9 +88,14 @@
       "bytes": 1888
     },
     {
+      "path": "analysis/attribution-review-audit.json",
+      "sha256": "69dd622221941ac96dee908fbf65958846a7650ceab735f3756b24b863ebcf77",
+      "bytes": 945
+    },
+    {
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "b2527333983a047a47d6beefc31f06ff0492946bb0d1fa58c844a509f0d06474",
-      "bytes": 5722
+      "sha256": "b8b8ebf3656ce130559e3ffc9db0d5e9b9bbdcad57d1e2fe5c06b5fe1887cd2d",
+      "bytes": 6824
     },
     {
       "path": "data/sources.json",
@@ -103,9 +108,14 @@
       "bytes": 1766
     },
     {
+      "path": "docs/ATTRIBUTION-REVIEW.md",
+      "sha256": "dbb667d5227ea6d2523adb6c326bc7bbb18ed9e037b11ccdc2b7986869619ad2",
+      "bytes": 3218
+    },
+    {
       "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "sha256": "0b1a6da357ed1bd35fc1a538b976d3dda75829d10ff4d4f3813e64202eee0ac9",
-      "bytes": 3866
+      "sha256": "8f743ce9a35e97649cd886f6a9aefaac0f88fedc0b59a49affc16591b3e26ab1",
+      "bytes": 4855
     },
     {
       "path": "project.json",
@@ -121,6 +131,11 @@
       "path": "research/arkalochori-conservation-packet.json",
       "sha256": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
       "bytes": 1940
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+      "bytes": 5804
     },
     {
       "path": "research/candidate-disposition-register.json",
@@ -149,8 +164,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "987923865a4cd727e1fc54f5a3b0550f1279a3fa7eedf6f21a34da20e5d170ac",
-      "bytes": 3325
+      "sha256": "d08524a1a6a835f98e90f7eae971bb6b92f99bff3e89b8402d2e610b75c2b11f",
+      "bytes": 5446
     },
     {
       "path": "research/hypothesis-quarantine.json",
@@ -188,9 +203,19 @@
       "bytes": 1895
     },
     {
+      "path": "scripts/attribution_review.py",
+      "sha256": "29fd40045d96e9ee0d1d8f692b856a1b8a0631b9a5fa4fc86080d951c1236dbf",
+      "bytes": 6044
+    },
+    {
       "path": "scripts/evidence_query.py",
       "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
       "bytes": 11289
+    },
+    {
+      "path": "scripts/test_attribution_review.py",
+      "sha256": "d81e1c610325e822a1e079db18a619defe57654d7318a13a8be336760b37cae0",
+      "bytes": 3274
     },
     {
       "path": "scripts/test_native_evidence_query.py",
