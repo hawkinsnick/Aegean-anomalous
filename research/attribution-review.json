@@ -1,0 +1,142 @@
+{
+  "format": "corpus-attribution-review-v1",
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "checked": "2026-10-15",
+  "scope": "All five controls; 14/15/16 segmentation histories and classification arguments remain source-specific. Boundary bars cannot automatically explain the Malia count difference.",
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY",
+  "consultation_boundary": "Existing source consultation receipts and limits are inherited exactly from the referenced native packets. This pass inspects those packets, not the underlying publications afresh. No exhaustive literature search, new autopsy or independent review is claimed.",
+  "rights": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed.",
+  "inputs": [
+    {
+      "path": "research/arkalochori-conservation-packet.json",
+      "sha256": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
+      "source_snapshot_commit": "96185bc2c53982cea792917aac0c08cd1ae07209"
+    },
+    {
+      "path": "research/classification-history.json",
+      "sha256": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+      "source_snapshot_commit": "96185bc2c53982cea792917aac0c08cd1ae07209"
+    },
+    {
+      "path": "research/counting-convention-register.json",
+      "sha256": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+      "source_snapshot_commit": "96185bc2c53982cea792917aac0c08cd1ae07209"
+    },
+    {
+      "path": "research/disagreement-register.json",
+      "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+      "source_snapshot_commit": "96185bc2c53982cea792917aac0c08cd1ae07209"
+    },
+    {
+      "path": "research/malia-evidence-packet.json",
+      "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+      "source_snapshot_commit": "96185bc2c53982cea792917aac0c08cd1ae07209"
+    }
+  ],
+  "complete_selections": [
+    {
+      "path": "research/disagreement-register.json",
+      "pointer": "/items",
+      "expected_rows": 5
+    }
+  ],
+  "cases": [
+    {
+      "review_id": "ANO-DIS-001",
+      "case_class": "CLASSIFICATION",
+      "finding": "Museum metadata, Flouda classification and later review scope are different kinds of source assertion, not independent votes for a script.",
+      "remaining_gap": "Locate source-specific classification arguments and retain disputed writing/script status.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/0"
+        },
+        {
+          "path": "research/classification-history.json",
+          "pointer": "/records/0"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ANO-DIS-002",
+      "case_class": "INTERPRETATION",
+      "finding": "Flouda direction/overdot proposals are scholarly interpretation, not canonical physical or linguistic facts.",
+      "remaining_gap": "Exact publication locus and independent assessment of marks and traversal remain needed.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/1"
+        },
+        {
+          "path": "research/arkalochori-conservation-packet.json",
+          "pointer": ""
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ANO-DIS-003",
+      "case_class": "COUNT_OR_IDENTITY",
+      "finding": "Malia counts14/15/16 have different segmentation traditions; Chapouthier excludes boundary bars from14. The 16-slot INSCRIBE state is directly described, not a reconciliation of drawings.",
+      "remaining_gap": "Compare specific graphic partitions across sources; never explain14→16 merely by adding the two bars.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/2"
+        },
+        {
+          "path": "research/counting-convention-register.json",
+          "pointer": ""
+        },
+        {
+          "path": "research/malia-evidence-packet.json",
+          "pointer": ""
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ANO-DIS-004",
+      "case_class": "CLASSIFICATION",
+      "finding": "Stray-find chronology cannot be resolved by a single normalized date.",
+      "remaining_gap": "Preserve each dated authority claim and assess its contextual basis.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/3"
+        },
+        {
+          "path": "research/malia-evidence-packet.json",
+          "pointer": ""
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "ANO-DIS-005",
+      "case_class": "INTERPRETATION",
+      "finding": "Decipherment proposals remain quarantined hypotheses.",
+      "remaining_gap": "No phonetic adoption without explicit source-specific arguments and independent evaluation.",
+      "evidence": [
+        {
+          "path": "research/disagreement-register.json",
+          "pointer": "/items/4"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    }
+  ],
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0
+}
