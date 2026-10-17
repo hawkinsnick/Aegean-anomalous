@@ -39,13 +39,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "f657e567eec5f6acc063b97d90d2f26cbadb22cef27ba97ef0eca7f1ad212f84",
-      "bytes": 5009
+      "sha256": "0d91aa8088977f41b97de3bd8e40f5a138e10a6a08ad02435c06f93aa095803d",
+      "bytes": 6025
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "2a2521b535ac04f26c7456c727cedd8fdcfec87c371794644d13de6a0b5bf5c6",
-      "bytes": 7790
+      "sha256": "f3aeca07c66f52ab89399d37276093245213cfd2a0c00b2035f79eaf994444a0",
+      "bytes": 8584
     },
     {
       "path": "ai-skill/manifest.json",
@@ -69,8 +69,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "9c99256bf6c1c8c0155103de60790a2cc7ff94d51ad8513bcf97d22d23350337",
-      "bytes": 2605
+      "sha256": "8f59c01daaf15ee8d608514a8dfcd3e0686a42397e074764305ea553a27931ba",
+      "bytes": 2796
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -98,6 +98,11 @@
       "bytes": 6824
     },
     {
+      "path": "analysis/research-delivery.json",
+      "sha256": "8899b76ee591e2919eded4254fed69e04ae845fa01cc1cb8f138f0ba6d456eae",
+      "bytes": 7232
+    },
+    {
       "path": "data/sources.json",
       "sha256": "bf6c869d070bec521ed9d3060c734211628de2ed8248541334b4daae5423268f",
       "bytes": 690
@@ -116,6 +121,11 @@
       "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
       "sha256": "8f743ce9a35e97649cd886f6a9aefaac0f88fedc0b59a49affc16591b3e26ab1",
       "bytes": 4855
+    },
+    {
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
     },
     {
       "path": "project.json",
@@ -213,6 +223,11 @@
       "bytes": 11289
     },
     {
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
       "path": "scripts/test_attribution_review.py",
       "sha256": "d81e1c610325e822a1e079db18a619defe57654d7318a13a8be336760b37cae0",
       "bytes": 3274
@@ -221,6 +236,11 @@
       "path": "scripts/test_native_evidence_query.py",
       "sha256": "ddd2af2ce39904014c8a58122278e524e7ae9d504c47218e26f1ba581bb581f4",
       "bytes": 6771
+    },
+    {
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
     }
   ]
 }
