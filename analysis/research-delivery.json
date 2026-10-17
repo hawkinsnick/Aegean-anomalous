@@ -1,0 +1,200 @@
+{
+  "format": "native-research-delivery-v1",
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "status": "PASS_DELIVERY_CONTROLS_ONLY",
+  "source_attribution_completeness": "NOT_CERTIFIED_BY_FILE_POINTERS",
+  "facts_hypotheses_policy": "PRESERVE_NATIVE_CATEGORIES_NO_AUTOMATIC_PROMOTION",
+  "scholarly_completeness": false,
+  "expert_acceptance_added": false,
+  "model_behavior_empirically_validated": false,
+  "collections": [
+    {
+      "name": "quarantined-candidates",
+      "native_unit": "quarantined candidate entity",
+      "record_count": 2,
+      "scope": "Writing status and script membership may remain disputed.",
+      "example_ids": [
+        "ARKALOCHORI-AXE",
+        "MALIA-ALTAR-STONE"
+      ],
+      "provenance": {
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates",
+        "native_artifacts_snapshot_commit": null,
+        "role": "quarantined-candidates",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "disagreement-register",
+      "native_unit": "research disagreement/control item",
+      "record_count": 5,
+      "scope": "Contains membership, counting and interpretive disputes.",
+      "example_ids": [
+        "ANO-DIS-001",
+        "ANO-DIS-002",
+        "ANO-DIS-003"
+      ],
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+        "pointer": "/items",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "attribution-review",
+      "native_unit": "bounded documentary attribution review task",
+      "record_count": 5,
+      "scope": "All five controls; 14/15/16 segmentation histories and classification arguments remain source-specific. Boundary bars cannot automatically explain the Malia count difference.",
+      "example_ids": [
+        "ANO-DIS-001",
+        "ANO-DIS-002",
+        "ANO-DIS-003"
+      ],
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    }
+  ],
+  "scholarly_limits": [
+    "Candidate admission to quarantine does not establish writing, language or script membership. Phaistos Disc stays in its dedicated corpus; source-specific counts and drawings are not silently unified.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+  ],
+  "inputs": [
+    {
+      "path": "LICENSE",
+      "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+      "bytes": 582
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha256": "da0ea24fe99ee55dffa4fdcc54c2c533be08b240a37fcf093b6e5a716d5cd74a",
+      "bytes": 324
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "5edfc0fb2115359539dbe6b76bbbc429ce041c1b4a8700d5bf45573dad45ff8e",
+      "bytes": 908
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "c08e96121a8c08e93aa828887a05f18991ea7fd3bc27a20da4ebb0ccc7fd02f6",
+      "bytes": 1581
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "1f01b9eee2ac2494d6dd1cdf20d3b7dbf49b89014f24ae4bbf083a4a2715580e",
+      "bytes": 850
+    },
+    {
+      "path": "ai-skill/SKILL.md",
+      "sha256": "0d91aa8088977f41b97de3bd8e40f5a138e10a6a08ad02435c06f93aa095803d",
+      "bytes": 6025
+    },
+    {
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
+    },
+    {
+      "path": "research/admission-policy.json",
+      "sha256": "7b3453f963bae73e7faf66557f73c32b42a472c702cde5b4928fee37b9625a12",
+      "bytes": 913
+    },
+    {
+      "path": "research/arkalochori-conservation-packet.json",
+      "sha256": "766b43d2d33aa636bdb726b9c11307774742de1c6ea6a6e1b8ce770a89578c49",
+      "bytes": 1940
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+      "bytes": 5804
+    },
+    {
+      "path": "research/candidate-register.json",
+      "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+      "bytes": 3022
+    },
+    {
+      "path": "research/classification-history.json",
+      "sha256": "a61bc41bd267b4f9d561db42572ff47e35757b93448264460eceb47dbbecd8e9",
+      "bytes": 1991
+    },
+    {
+      "path": "research/collection-work-ledger.json",
+      "sha256": "5b2313b064b07a960052c60458ce6c96894b6b8d2d3465e63c68f5269fb28e3f",
+      "bytes": 17784
+    },
+    {
+      "path": "research/counting-convention-register.json",
+      "sha256": "6fd9e9b4fba629c8b1657b8ac8734c924307d752241d6e22b3aa718aa2751066",
+      "bytes": 2105
+    },
+    {
+      "path": "research/disagreement-register.json",
+      "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+      "bytes": 1242
+    },
+    {
+      "path": "research/evidence-query-profile.json",
+      "sha256": "d08524a1a6a835f98e90f7eae971bb6b92f99bff3e89b8402d2e610b75c2b11f",
+      "bytes": 5446
+    },
+    {
+      "path": "research/expert-review-packet.json",
+      "sha256": "b232e3d6838789866cc6330580e337dd288f22cd444ac52cb44e31d7a99db2f5",
+      "bytes": 562
+    },
+    {
+      "path": "research/malia-evidence-packet.json",
+      "sha256": "9cca5d22812e165cd9fd40137799e9176c9e7f1b801ea6e6fa4eaf20b9a181d6",
+      "bytes": 7891
+    },
+    {
+      "path": "research/rights-source-matrix.json",
+      "sha256": "6f514f4ae4903ad8a0ba66b3adf74395e175f53625feeffc3360e82bcc9bc506",
+      "bytes": 1128
+    },
+    {
+      "path": "research/source-lineage-register.json",
+      "sha256": "a53385f4ca46d74b80f3a373bb1612621d33229dbc1cd05c4f079eff477ea3a0",
+      "bytes": 1467
+    },
+    {
+      "path": "research/source-quality-register.json",
+      "sha256": "46f4a8c35efa37b1f123f7d70beb84aa962c750ee2a9abf12711063674900ea0",
+      "bytes": 919
+    },
+    {
+      "path": "review/collection-packet.json",
+      "sha256": "9fc5d698faed717c5718e3ed3a645d8467a5464f6af60485c266aab3af19bc8f",
+      "bytes": 1895
+    },
+    {
+      "path": "scripts/evidence_query.py",
+      "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+      "bytes": 11289
+    },
+    {
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
+    }
+  ],
+  "boundary": "Source assertions, hypotheses and review tasks retain their native categories. Retrieval and byte replay establish neither scholarly completeness nor expert acceptance. Missing source attribution, access, permission and independent review remain open where recorded."
+}
