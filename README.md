@@ -1,5 +1,16 @@
 # Aegean Anomalous Inscriptions
 
+
+## Use the AI research skill
+
+Start with [the individual skill](ai-skill/SKILL.md) and the
+[step-by-step use and validation guide](docs/AI-SKILL-VALIDATION.md).
+Run `python scripts/validate_ai_skill.py` on a complete matching checkout.
+The skill requires access to its native evidence; a GitHub link alone does not
+install it. Passing checks establish the documented retrieval scope, not accepted
+readings, expert review or cross-platform model accuracy.
+
+
 A neutral quarantine and comparison corpus for Aegean inscriptions/objects whose script classification, writing status, or relationship to established corpora is disputed.
 
 **This repository does not posit an “Aegean anomalous language” or a single anomalous writing system.** Inclusion means that an object is useful for controlled comparison because its classification is contested.

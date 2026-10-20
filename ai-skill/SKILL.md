@@ -3,6 +3,28 @@ name: aegean-anomalous-research
 description: Evidence-first research with native corpus authorities and fleet contract validation.
 version: 0.3.1
 ---
+
+## Load and validate this repository-bound skill
+
+Use this file as the canonical individual skill. Load the complete matching
+repository checkout or give the AI access to its files; this Markdown file alone
+contains instructions, not the corpus. Do not claim that supplying a GitHub URL
+installs a skill or makes private/local files available to an AI platform.
+Resolve the paths below from the repository root. With Python 3.10+ available,
+run `python scripts/validate_ai_skill.py` before describing this skill as
+operational on the supplied checkout. Read `docs/AI-SKILL-VALIDATION.md` for the
+exact workflow, examples, dependencies, validation scope and limitations.
+If execution or source access is unavailable, say which step was not run and
+make no fresh validation claim. Preserve all native source/rights restrictions.
+
+Discover exact IDs with `python scripts/evidence_query.py --coverage` and
+`python scripts/evidence_query.py --list COLLECTION`. Retrieve evidence with
+`python scripts/evidence_query.py --record ID --collection COLLECTION`;
+use `python scripts/research_delivery.py --dossier ID --collection COLLECTION`
+for its evidence-only answer frame. Return the exact source path/hash/pointer,
+attribution, uncertainty and native evidence unit. A missing ID means absent
+from the selected view; never invent a replacement or infer global absence.
+
 # Aegean Anomalous Research AI
 
 This is a quarantine/comparison skill, not a decipherment skill. Inclusion never establishes that an object is writing, authentic, or a member of any script. Always report competing classifications with attribution. Never create an 'Aegean anomalous' language/script, and never convert graphic resemblance into sign identity or phonetic value. Prefer object geometry, provenance, chronology, materiality, source lineage and explicit uncertainty.
