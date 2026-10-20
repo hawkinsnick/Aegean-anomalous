@@ -1,10 +1,22 @@
 {
   "artifacts": [
     {
+      "path": ".github/workflows/ai-skill-function.yml",
+      "role": "native_authority",
+      "sha256": "bd930d865b6081bf4cef842e5aed1ef256c14b5f47ad468b5601a10e8d346364",
+      "bytes": 789
+    },
+    {
       "path": "ai-skill/SKILL.md",
       "role": "native_authority",
-      "sha256": "0d91aa8088977f41b97de3bd8e40f5a138e10a6a08ad02435c06f93aa095803d",
-      "bytes": 6025
+      "sha256": "99af20763e771400c0412ba8e15b0ddec8664b287d421af46ca102cb406285aa",
+      "bytes": 7389
+    },
+    {
+      "path": "ai-skill/manifest.json",
+      "role": "native_authority",
+      "sha256": "eb26d1e1a7033beb255f9dcb68a7444051c52917130e90abe14c454572fcef4f",
+      "bytes": 796
     },
     {
       "path": "ai-skill/references/authority-profile.json",
@@ -15,8 +27,8 @@
     {
       "path": "ai-skill/scripts/build_bundle.py",
       "role": "native_authority",
-      "sha256": "8f59c01daaf15ee8d608514a8dfcd3e0686a42397e074764305ea553a27931ba",
-      "bytes": 2796
+      "sha256": "71deb2ad39879d67cb4eba0a6b59da6053f0755a138a3e09edb2beac4b8614c9",
+      "bytes": 3083
     },
     {
       "path": "ai-skill/scripts/publish_sync.py",
@@ -45,7 +57,7 @@
     {
       "path": "analysis/research-delivery.json",
       "role": "native_authority",
-      "sha256": "8899b76ee591e2919eded4254fed69e04ae845fa01cc1cb8f138f0ba6d456eae",
+      "sha256": "8a1bcc8e3e6c520ec974288608f228f8e10d0f31b56f937391ba49ab95a442ef",
       "bytes": 7232
     },
     {
@@ -59,6 +71,12 @@
       "role": "native_authority",
       "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
       "bytes": 1766
+    },
+    {
+      "path": "docs/AI-SKILL-VALIDATION.md",
+      "role": "native_authority",
+      "sha256": "4514dfafc13fea79405340dd5d4046b45ee98ba8b0bb1a5532a0703be6ed0321",
+      "bytes": 3211
     },
     {
       "path": "docs/ATTRIBUTION-REVIEW.md",
@@ -195,8 +213,14 @@
     {
       "path": "scripts/research_delivery.py",
       "role": "native_authority",
-      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
-      "bytes": 10075
+      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
+      "bytes": 10387
+    },
+    {
+      "path": "scripts/test_ai_skill_validation.py",
+      "role": "native_authority",
+      "sha256": "5c4405e2b856e976bbeb6838ff011c7f3b3d59e910d18e182ac3e6f16b737d57",
+      "bytes": 2395
     },
     {
       "path": "scripts/test_attribution_review.py",
@@ -215,6 +239,12 @@
       "role": "native_authority",
       "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
       "bytes": 5678
+    },
+    {
+      "path": "scripts/validate_ai_skill.py",
+      "role": "native_authority",
+      "sha256": "aacfb721bcf218975802968d4e260abc2dc24a300ac41eac44c0bd0d15fcb9d1",
+      "bytes": 10829
     }
   ],
   "authoritative_inputs": [
@@ -243,5 +273,5 @@
   "project": "Aegean-anomalous",
   "schema_version": "1.0",
   "skill_version": "1.8.0",
-  "source_commit": "a0970dce468439c4548d6458093bfa4a3c0c9305"
+  "source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb"
 }

@@ -1,0 +1,58 @@
+{
+  "format": "corpus-ai-skill-function-check-v1",
+  "repository": "hawkinsnick/Aegean-anomalous",
+  "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+  "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+  "skill_name": "aegean-anomalous-research",
+  "skill_version": "0.3.1",
+  "skill_sha256": "99af20763e771400c0412ba8e15b0ddec8664b287d421af46ca102cb406285aa",
+  "bundle_source_commit": "73e7ec2dfb4c445443c26d12c16a3d0af84ec3fb",
+  "bundle_sha256": "16846365265d4a18ff64f8353ee5553eb87a127d93ff2e785a9b1188463896ff",
+  "indexed_artifact_entries_checked": 41,
+  "unique_indexed_paths_checked": 41,
+  "lookups": [
+    {
+      "collection": "quarantined-candidates",
+      "id": "ARKALOCHORI-AXE",
+      "native_unit": "quarantined candidate entity",
+      "provenance": {
+        "path": "research/candidate-register.json",
+        "sha256": "2475d3e19e80bff089caeac109feef87e9f7af9ae223f5dc1776538ee2d7af9d",
+        "pointer": "/candidates/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "quarantined-candidates",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "disagreement-register",
+      "id": "ANO-DIS-001",
+      "native_unit": "research disagreement/control item",
+      "provenance": {
+        "path": "research/disagreement-register.json",
+        "sha256": "58862f3e92f2913ca9d0a76245e36d8d93a30bf1d2586231811c67fbe94a8a35",
+        "pointer": "/items/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "disagreement-register",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "attribution-review",
+      "id": "ANO-DIS-001",
+      "native_unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "a9295a48ad2c836a2416e96586e0abbd4c9e6299645d08c0fcc94ab09d7d3797",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    }
+  ],
+  "missing_id_rejected": true,
+  "scholarly_acceptance_granted": false,
+  "empirical_model_accuracy_established": false,
+  "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+}
