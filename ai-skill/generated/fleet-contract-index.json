@@ -44,13 +44,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "71c460205fdb6f941d2a8b45ef9bf984a21ed9cd79b834505283ce0043595066",
-      "bytes": 7961
+      "sha256": "df4db58e6ad317d6c7e63f737d6576982e908ae68281f8dc9e5e30dcd5c531ab",
+      "bytes": 9608
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "c84603b15c25026b46fa64b42867c1b655b7b2c0d1f6882249d8c349a0ecbae2",
-      "bytes": 9579
+      "sha256": "e1313241cdca335d441b6a202a02292ce195cdf507a3d5d6a9fee0e1be92129c",
+      "bytes": 9770
     },
     {
       "path": "ai-skill/manifest.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "e65a6528b8707c925c771a15dfd3d8b5f80fde8f594fe9f7d7d508a29833d3f4",
-      "bytes": 1358
+      "sha256": "32d6fcb9f0f11cd0b84387f793c79c2cbf40a5005bf7cc2fe4bfe9353ccbe5a2",
+      "bytes": 1470
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -104,8 +104,8 @@
     },
     {
       "path": "analysis/research-delivery.json",
-      "sha256": "291fbf9b46175d431e9c28f0cba635d10b39e38ba63941d2757775ef64712539",
-      "bytes": 7232
+      "sha256": "3a5811a204bd5f417565eb323efd0c3b3b41cca5c4abf110e6bb5fd8d636936e",
+      "bytes": 7389
     },
     {
       "path": "data/sources.json",
@@ -131,6 +131,11 @@
       "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
       "sha256": "8f743ce9a35e97649cd886f6a9aefaac0f88fedc0b59a49affc16591b3e26ab1",
       "bytes": 4855
+    },
+    {
+      "path": "docs/NONREVIEW-WORK.md",
+      "sha256": "2185ca2084088847542668a279a04e6cc4481565d018f94eaa940b0a8bbfc14a",
+      "bytes": 2961
     },
     {
       "path": "docs/RESEARCH-DELIVERY.md",
@@ -234,8 +239,8 @@
     },
     {
       "path": "scripts/research_delivery.py",
-      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
-      "bytes": 10387
+      "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+      "bytes": 10514
     },
     {
       "path": "scripts/test_ai_skill_validation.py",
